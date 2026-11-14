@@ -226,7 +226,7 @@
 		<option name="title_color" value="ceddea" type="string" />
 		
 		<option name="caption_displayed" value="true" type="bool" />
-		<option name="caption_position" value="left" type="string" />
+		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
 		<option name="caption_size" value="18" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
@@ -234,7 +234,7 @@
 		<option name="caption_decoration" value="none" type="string" />
 		<option name="caption_color" value="ceddea" type="string" />
 		<option name="caption_width" value="500" type="int" />
-		<option name="caption_height" value="75" type="int" />
+		<option name="caption_height" value="200" type="int" />
 		<option name="caption_textalign" value="left" type="string" />
 		
 		<option name="play_displayed" value="false" type="bool" />
@@ -384,7 +384,7 @@
 		<option name="title_color" value="ceddea" type="string" />
 		
 		<option name="caption_displayed" value="true" type="bool" />
-		<option name="caption_position" value="left" type="string" />
+		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
 		<option name="caption_size" value="18" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
@@ -392,7 +392,7 @@
 		<option name="caption_decoration" value="none" type="string" />
 		<option name="caption_color" value="ceddea" type="string" />
 		<option name="caption_width" value="500" type="int" />
-		<option name="caption_height" value="75" type="int" />
+		<option name="caption_height" value="200" type="int" />
 		<option name="caption_textalign" value="left" type="string" />
 		
 		<option name="play_displayed" value="false" type="bool" />
@@ -542,7 +542,7 @@
 		<option name="title_color" value="ceddea" type="string" />
 		
 		<option name="caption_displayed" value="true" type="bool" />
-		<option name="caption_position" value="left" type="string" />
+		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
 		<option name="caption_size" value="18" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
@@ -550,7 +550,7 @@
 		<option name="caption_decoration" value="none" type="string" />
 		<option name="caption_color" value="ceddea" type="string" />
 		<option name="caption_width" value="500" type="int" />
-		<option name="caption_height" value="75" type="int" />
+		<option name="caption_height" value="200" type="int" />
 		<option name="caption_textalign" value="left" type="string" />
 		
 		<option name="play_displayed" value="false" type="bool" />
@@ -665,7 +665,7 @@
 		<option name="position" value="center" type="string" />
 		<option name="margin_x" value="0" type="int" />
 		<option name="margin_y" value="0" type="int" />
-		<option name="external_padding" value="10" type="int" />
+		<option name="external_padding" value="15" type="int" />
 		<option name="draggable_box" value="false" type="bool" />
 		<option name="slideshow_autoplay" value="false" type="bool" />
 		<option name="slideshow" value="5000" type="int" />
@@ -702,7 +702,7 @@
 		<option name="caption_decoration" value="none" type="string" />
 		<option name="caption_color" value="ceddea" type="string" />
 		<option name="caption_width" value="270" type="int" />
-		<option name="caption_height" value="160" type="int" />
+		<option name="caption_height" value="200" type="int" />
 		<option name="caption_textalign" value="left" type="string" />
 		
 		<option name="play_displayed" value="false" type="bool" />
@@ -855,7 +855,7 @@
 		<option name="title_color" value="ceddea" type="string" />
 		
 		<option name="caption_displayed" value="true" type="bool" />
-		<option name="caption_position" value="left" type="string" />
+		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
 		<option name="caption_size" value="18" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
@@ -863,7 +863,7 @@
 		<option name="caption_decoration" value="none" type="string" />
 		<option name="caption_color" value="ceddea" type="string" />
 		<option name="caption_width" value="500" type="int" />
-		<option name="caption_height" value="75" type="int" />
+		<option name="caption_height" value="200" type="int" />
 		<option name="caption_textalign" value="left" type="string" />
 		
 		<option name="play_displayed" value="false" type="bool" />
@@ -1013,7 +1013,7 @@
 		<option name="title_color" value="ceddea" type="string" />
 		
 		<option name="caption_displayed" value="true" type="bool" />
-		<option name="caption_position" value="left" type="string" />
+		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
 		<option name="caption_size" value="18" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
@@ -1021,7 +1021,7 @@
 		<option name="caption_decoration" value="none" type="string" />
 		<option name="caption_color" value="ceddea" type="string" />
 		<option name="caption_width" value="500" type="int" />
-		<option name="caption_height" value="75" type="int" />
+		<option name="caption_height" value="200" type="int" />
 		<option name="caption_textalign" value="left" type="string" />
 		
 		<option name="play_displayed" value="false" type="bool" />
@@ -1172,7 +1172,7 @@
 		<option name="title_color" value="ceddea" type="string" />
 		
 		<option name="caption_displayed" value="true" type="bool" />
-		<option name="caption_position" value="left" type="string" />
+		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
 		<option name="caption_size" value="18" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
@@ -1180,7 +1180,7 @@
 		<option name="caption_decoration" value="none" type="string" />
 		<option name="caption_color" value="ceddea" type="string" />
 		<option name="caption_width" value="500" type="int" />
-		<option name="caption_height" value="75" type="int" />
+		<option name="caption_height" value="200" type="int" />
 		<option name="caption_textalign" value="left" type="string" />
 		
 		<option name="play_displayed" value="false" type="bool" />
