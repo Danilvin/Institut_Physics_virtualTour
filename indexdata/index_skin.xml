@@ -196,9 +196,9 @@
 		<option name="slideshow" value="5000" type="int" />
 		<option name="container_auto_size" value="false" type="bool" />
 		<option name="container_width" value="90" type="int" />
-		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_width_unit" value="pixel" type="string" />
 		<option name="container_height" value="85" type="int" />
-		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_height_unit" value="pixel" type="string" />
 		<option name="container_color" value="0b5793" type="string" />
 		<option name="container_alpha" value="0.80000000000000004" type="float" />
 		<option name="container_topleft_border_radius" value="10" type="int" />
@@ -354,9 +354,9 @@
 		<option name="slideshow" value="5000" type="int" />
 		<option name="container_auto_size" value="false" type="bool" />
 		<option name="container_width" value="90" type="int" />
-		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_width_unit" value="pixel" type="string" />
 		<option name="container_height" value="85" type="int" />
-		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_height_unit" value="pixel" type="string" />
 		<option name="container_color" value="0b5793" type="string" />
 		<option name="container_alpha" value="0.80000000000000004" type="float" />
 		<option name="container_topleft_border_radius" value="10" type="int" />
@@ -512,9 +512,9 @@
 		<option name="slideshow" value="5000" type="int" />
 		<option name="container_auto_size" value="false" type="bool" />
 		<option name="container_width" value="90" type="int" />
-		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_width_unit" value="pixel" type="string" />
 		<option name="container_height" value="85" type="int" />
-		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_height_unit" value="pixel" type="string" />
 		<option name="container_color" value="0b5793" type="string" />
 		<option name="container_alpha" value="0.80000000000000004" type="float" />
 		<option name="container_topleft_border_radius" value="10" type="int" />
@@ -671,9 +671,9 @@
 		<option name="slideshow" value="5000" type="int" />
 		<option name="container_auto_size" value="false" type="bool" />
 		<option name="container_width" value="90" type="int" />
-		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_width_unit" value="pixel" type="string" />
 		<option name="container_height" value="85" type="int" />
-		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_height_unit" value="pixel" type="string" />
 		<option name="container_color" value="0b5793" type="string" />
 		<option name="container_alpha" value="0.80000000000000004" type="float" />
 		<option name="container_topleft_border_radius" value="25" type="int" />
@@ -825,9 +825,9 @@
 		<option name="slideshow" value="5000" type="int" />
 		<option name="container_auto_size" value="false" type="bool" />
 		<option name="container_width" value="90" type="int" />
-		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_width_unit" value="pixel" type="string" />
 		<option name="container_height" value="85" type="int" />
-		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_height_unit" value="pixel" type="string" />
 		<option name="container_color" value="0b5793" type="string" />
 		<option name="container_alpha" value="0.80000000000000004" type="float" />
 		<option name="container_topleft_border_radius" value="10" type="int" />
@@ -983,9 +983,9 @@
 		<option name="slideshow" value="5000" type="int" />
 		<option name="container_auto_size" value="false" type="bool" />
 		<option name="container_width" value="90" type="int" />
-		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_width_unit" value="pixel" type="string" />
 		<option name="container_height" value="85" type="int" />
-		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_height_unit" value="pixel" type="string" />
 		<option name="container_color" value="0b5793" type="string" />
 		<option name="container_alpha" value="0.80000000000000004" type="float" />
 		<option name="container_topleft_border_radius" value="10" type="int" />
@@ -1142,9 +1142,9 @@
 		<option name="slideshow" value="5000" type="int" />
 		<option name="container_auto_size" value="false" type="bool" />
 		<option name="container_width" value="90" type="int" />
-		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_width_unit" value="pixel" type="string" />
 		<option name="container_height" value="85" type="int" />
-		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_height_unit" value="pixel" type="string" />
 		<option name="container_color" value="0b5793" type="string" />
 		<option name="container_alpha" value="0.80000000000000004" type="float" />
 		<option name="container_topleft_border_radius" value="10" type="int" />
