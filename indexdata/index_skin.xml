@@ -693,17 +693,7 @@
 		
 		<option name="title_displayed" value="false" type="bool" />
 		
-		<option name="caption_displayed" value="true" type="bool" />
-		<option name="caption_position" value="left" type="string" />
-		<option name="caption_font" value="Sitka Text" type="string" />
-		<option name="caption_size" value="18" type="int" />
-		<option name="caption_weight" value="normal" type="string" />
-		<option name="caption_style" value="normal" type="string" />
-		<option name="caption_decoration" value="none" type="string" />
-		<option name="caption_color" value="ceddea" type="string" />
-		<option name="caption_width" value="270" type="int" />
-		<option name="caption_height" value="75" type="int" />
-		<option name="caption_textalign" value="left" type="string" />
+		<option name="caption_displayed" value="false" type="bool" />
 		
 		<option name="play_displayed" value="false" type="bool" />
 		<option name="play_position" value="bottomleft" type="string" />
