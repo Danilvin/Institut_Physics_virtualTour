@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="ru_project_title"><![CDATA[New Project]]></data>
+
+
+  <data name="ru_panogroup1354_title"><![CDATA[Group 1354]]></data>
+
+  <data name="ru_pano1352_title"><![CDATA[3_korpus_coridor]]></data>
+
+
+  <data name="ru_pano1353_title"><![CDATA[3_korpus_coridor_2]]></data>
+
+
+  <data name="ru_pano1361_title"><![CDATA[3_korpus_coridor_3]]></data>
+
+
+  <data name="ru_pano1386_title"><![CDATA[aud_386]]></data>
+
+
+  <data name="ru_pano1467_title"><![CDATA[IMG_20260224_142806_00_0521]]></data>
+
+
+  <data name="ru_pano1470_title"><![CDATA[IMG_20260224_142610_00_050]]></data>
+
+
+  <data name="ru_pano1473_title"><![CDATA[IMG_20260224_142439_00_049]]></data>
+
+
+  <data name="ru_pano1476_title"><![CDATA[IMG_20260224_142341_00_048]]></data>
+
+
+  <data name="ru_pano1479_title"><![CDATA[IMG_20260225_185701_00_061]]></data>
+
+
+  <data name="ru_pano1491_title"><![CDATA[IMG_20260303_114010_00_047]]></data>
+
+
+  <data name="ru_pano1494_title"><![CDATA[IMG_20260303_114337_00_048]]></data>
+
+  <data name="ru_panogroup1880_title"><![CDATA[Group 1880]]></data>
+
+  <data name="ru_pano1879_title"><![CDATA[IMG_20260225_185811_00_062]]></data>
+
+  <data name="ru_panogroup1883_title"><![CDATA[panorama]]></data>
+
+  <data name="ru_pano1882_title"><![CDATA[IMG_20260225_185917_00_063]]></data>
+
+
+  <data name="ru_pano1885_title"><![CDATA[IMG_20260225_190106_00_065]]></data>
+
+
+  <data name="ru_pano2378_title"><![CDATA[IMG_20260217_125131_00_0581 (1)]]></data>
+
+  <data name="ru_panogroup2382_title"><![CDATA[Group 2382]]></data>
+
+  <data name="ru_pano2381_title"><![CDATA[IMG_20260217_125227_00_059 (1)]]></data>
+
+
+  <data name="ru_pano2384_title"><![CDATA[IMG_20260217_122801_00_047 ретуш]]></data>
+
+
+	<data name="ru_spotmap2655_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2656_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2657_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2658_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2659_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2660_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2661_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2662_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2663_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2664_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2665_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2666_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2667_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2668_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2669_tooltip"><![CDATA[]]></data>
+	<data name="ru_spotmap2670_tooltip"><![CDATA[]]></data>
+
+
+
+	<data name="ru_panogroup1354_floor_title"><![CDATA[Group 1354]]></data>
+	<data name="ru_panogroup1880_floor_title"><![CDATA[Group 1880]]></data>
+	<data name="ru_panogroup1883_floor_title"><![CDATA[panorama]]></data>
+	<data name="ru_panogroup2382_floor_title"><![CDATA[Group 2382]]></data>
+
+  <data name="ru_gallery1navprev_text"><![CDATA[Previous]]></data>
+  <data name="ru_gallery1navnext_text"><![CDATA[Next]]></data>
+  <data name="ru_gallery1close_text"><![CDATA[Close]]></data>
+  <data name="ru_gallerypicture_title0"><![CDATA[]]></data>
+  <data name="ru_gallerypicture_caption0"><![CDATA[]]></data>
+  <data name="ru_gallerypicture_title1"><![CDATA[]]></data>
+  <data name="ru_gallerypicture_caption1"><![CDATA[]]></data>
+  <data name="ru_gallerynavprev_text"><![CDATA[Previous]]></data>
+  <data name="ru_gallerynavnext_text"><![CDATA[Next]]></data>
+  <data name="ru_galleryclose_text"><![CDATA[Close]]></data>
+  <data name="ru_gallerypicture_title0"><![CDATA[]]></data>
+  <data name="ru_gallerypicture_caption0"><![CDATA[<b>Сканирующий зондовой микроскоп NanoEducator<b/>]]></data>
+  <data name="ru_gallerypicture_title1"><![CDATA[]]></data>
+  <data name="ru_gallerypicture_caption1"><![CDATA[<b>Сканирующий зондовой микроскоп NanoEducator<b/>]]></data>
+  <data name="ru_gallery2navprev_text"><![CDATA[Previous]]></data>
+  <data name="ru_gallery2navnext_text"><![CDATA[Next]]></data>
+  <data name="ru_gallery2close_text"><![CDATA[Close]]></data>
+  <data name="ru_gallerypicture_title0"><![CDATA[]]></data>
+  <data name="ru_gallerypicture_caption0"><![CDATA[<b>3D сканирующий лазерный Рамановский спектрометр Confotec</b> <br> <br> <br> Text Text  Text Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallerypicture_title1"><![CDATA[]]></data>
+  <data name="ru_gallerypicture_caption1"><![CDATA[<b>3D сканирующий лазерный Рамановский спектрометр Confotec</b> <br> <br> <br> Text Text  Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery2picture_title2"><![CDATA[]]></data>
+  <data name="ru_gallery2picture_caption2"><![CDATA[<b>3D сканирующий лазерный Рамановский спектрометр Confotec</b> <br> <br> <br> Text Text  Text Text Text Text <br> Text Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery3navprev_text"><![CDATA[Previous]]></data>
+  <data name="ru_gallery3navnext_text"><![CDATA[Next]]></data>
+  <data name="ru_gallery3close_text"><![CDATA[Close]]></data>
+  <data name="ru_gallery3picture_title0"><![CDATA[]]></data>
+  <data name="ru_gallery3picture_caption0"><![CDATA[<b>Диэлектрический спектрометр<br>NOVOCONTROl 41</b><br><br>
+Прибор позволяет  проводить исследование электрофизических свойств различных<br>материалов – диэлектриков, полупроводников, в&nbspтом числе в&nbspнаноструктурированном состоянии, а&nbspтакже электролитов.<br><br> Измерительная система позволяет проводить автоматизированные прецизионные измерения комплексного импеданса, диэлектрической проницаемости, тангенса угла диэлектрических потерь, комплексной проводимости в широком диапазоне частот (3&nbspмкГц&nbsp– 3&nbspГГц) и&nbspтемператур (-190°С-+400°С)]]></data>
+  <data name="ru_gallery3picture_title1"><![CDATA[]]></data>
+  <data name="ru_gallery3picture_caption1"><![CDATA[<b>Диэлектрический спектрометр "Novocontrol 41"<b/><br> <br>Text  <br>Text Text  <br>Text Text Text<br>]]></data>
+  <data name="ru_gallery3picture_title2"><![CDATA[]]></data>
+  <data name="ru_gallery3picture_caption2"><![CDATA[<b>Диэлектрический спектрометр "Novocontrol 41"<b/><br> <br>Text  <br>Text Text  <br>Text Text Text<br>]]></data>
+  <data name="ru_gallery3picture_title3"><![CDATA[]]></data>
+  <data name="ru_gallery3picture_caption3"><![CDATA[<b>Диэлектрический спектрометр "Novocontrol 41"<b/><br> <br>Text  <br>Text Text  <br>Text Text Text<br>]]></data>
+  <data name="ru_gallery3picture_title4"><![CDATA[]]></data>
+  <data name="ru_gallery3picture_caption4"><![CDATA[<b>Диэлектрический спектрометр "Novocontrol 41"<b/><br> <br>Text  <br>Text Text  <br>Text Text Text<br>]]></data>
+  <data name="ru_gallery4navprev_text"><![CDATA[Previous]]></data>
+  <data name="ru_gallery4navnext_text"><![CDATA[Next]]></data>
+  <data name="ru_gallery4close_text"><![CDATA[Close]]></data>
+  <data name="ru_gallerypicture_title0"><![CDATA[]]></data>
+  <data name="ru_gallerypicture_caption0"><![CDATA[<b>Название<b/><br> <br>Text  <br>Text Text  <br>Text Text Text<br>]]></data>
+  <data name="ru_gallery4picture_title1"><![CDATA[]]></data>
+  <data name="ru_gallery4picture_caption1"><![CDATA[<b>Название<b/><br> <br>Text  <br>Text Text  <br>Text Text Text<br>]]></data>
+  <data name="ru_gallery5navprev_text"><![CDATA[Previous]]></data>
+  <data name="ru_gallery5navnext_text"><![CDATA[Next]]></data>
+  <data name="ru_gallery5close_text"><![CDATA[Close]]></data>
+  <data name="ru_gallery5picture_title0"><![CDATA[]]></data>
+  <data name="ru_gallery5picture_caption0"><![CDATA[<b> Проектор очень красивый</b> <br> Text Text  Text Text Text Text Text Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery5picture_title1"><![CDATA[]]></data>
+  <data name="ru_gallery5picture_caption1"><![CDATA[<b> Проектор очень красивый</b> <br> Text Text  Text Text Text Text Text <br> Text Text Text Text Text <br> Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery5picture_title2"><![CDATA[]]></data>
+  <data name="ru_gallery5picture_caption2"><![CDATA[<b> Проектор очень красивый</b> <br> Text Text  Text Text Text Text Text <br> Text Text Text Text Text <br> Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery6navprev_text"><![CDATA[Previous]]></data>
+  <data name="ru_gallery6navnext_text"><![CDATA[Next]]></data>
+  <data name="ru_gallery6close_text"><![CDATA[Close]]></data>
+  <data name="ru_gallery6picture_title0"><![CDATA[]]></data>
+  <data name="ru_gallery6picture_caption0"><![CDATA[<b> Че-то на компе</b> <br> Text Text  Text Text Text Text Text Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery6picture_title1"><![CDATA[]]></data>
+  <data name="ru_gallery6picture_caption1"><![CDATA[<b> Че-то на компе</b> <br> Text Text  Text Text Text Text Text <br> Text Text Text Text Text <br> Text Text Text Text Text Text Text Text ]]></data>
+
+
+  <data name="ru_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
+  <data name="ru_vr_setup_advanced"><![CDATA[ADVANCED SETTINGS]]></data>
+  <data name="ru_vr_setup_title"><![CDATA[WEB VR SETTINGS]]></data>
+  <data name="ru_vr_setup_dvn1"><![CDATA[Device:]]></data>
+  <data name="ru_vr_setup_siz1"><![CDATA[Screen size:]]></data>
+  <data name="ru_vr_setup_ipd1"><![CDATA[IPD:]]></data>
+  <data name="ru_vr_setup_hmd1"><![CDATA[HMD:]]></data>
+  <data name="ru_vr_setup_hmd3"><![CDATA[Customize]]></data>
+  <data name="ru_vr_setup_cal"><![CDATA[Calibrate gyroscope]]></data>
+  <data name="ru_vr_setup_sav"><![CDATA[SAVE]]></data>
+  <data name="ru_vr_setup_rst"><![CDATA[RESET]]></data>
+  <data name="ru_vr_setup_simple"><![CDATA[SIMPLE]]></data>
+  <data name="ru_vr_setup_cls"><![CDATA[CLOSE]]></data>
+  <data name="ru_vr_setup_m31"><![CDATA[HMD SETTINGS]]></data>
+  <data name="ru_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="ru_vr_setup_dst1"><![CDATA[Distortion:]]></data>
+  <data name="ru_vr_setup_d2tx"><![CDATA[Distortion 2:]]></data>
+  <data name="ru_vr_setup_vig1"><![CDATA[Vignette:]]></data>
+  <data name="ru_vr_setup_cac1"><![CDATA[Chromatic aberration:]]></data>
+  <data name="ru_vr_setup_olp1"><![CDATA[Overlap:]]></data>
+  <data name="ru_vr_setup_m35"><![CDATA[RETURN]]></data>
+  <data name="ru_vr_setup_cb1"><![CDATA[GYROSCOPE]]></data>
+  <data name="ru_vr_setup_cb2"><![CDATA[Place the device on a flat and[br]stable surface and tab CALIBRATE[br]to correct a gyroscope drifting.]]></data>
+  <data name="ru_vr_setup_cb3"><![CDATA[CALIBRATE]]></data>
+  <data name="ru_vr_setup_cb4"><![CDATA[RESET]]></data>
+  <data name="ru_vr_setup_cb5"><![CDATA[RETURN]]></data>
+  <data name="ru_vr_setup_cb6"><![CDATA[Calibrating...]]></data>
+  <data name="ru_vr_setup_cb7"><![CDATA[Successful calibration]]></data>
+  <data name="ru_vr_setup_cb8"><![CDATA[Calibration failed]]></data>
+  <data name="ru_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

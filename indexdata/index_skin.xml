@@ -1,0 +1,2513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+    
+  <!-- Spot Style - Default Point Spot Style -->
+
+
+  <style name="IconDefaultPointSpotStyle"
+         url="%FIRSTXML%/spots/frame_1_user_defaultpoint0.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconDefaultPointSpotStyle"
+         onout="onoutIconDefaultPointSpotStyle"
+
+         height="45"
+         width="45"
+         />
+  <action name="onhoverIconDefaultPointSpotStyle">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Microscope -->
+
+
+  <style name="IconMicroscope"
+         url="%FIRSTXML%/spots/frame_15_user_defaultpoint1.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconMicroscope"
+         onout="onoutIconMicroscope"
+
+
+         />
+  <action name="onhoverIconMicroscope">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconMicroscope">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  <!-- unsupported kind of display : PointMap -->
+
+
+    
+  <!-- Spot Style - Microscope 1 -->
+
+
+  <style name="IconMicroscope1"
+         url="%FIRSTXML%/spots/frame_15_user_defaultpoint2.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconMicroscope1"
+         onout="onoutIconMicroscope1"
+
+
+         />
+  <action name="onhoverIconMicroscope1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconMicroscope1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 3dMicr -->
+
+
+  <style name="Icon3dMicr"
+         url="%FIRSTXML%/spots/frame_15_user_defaultpoint3.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon3dMicr"
+         onout="onoutIcon3dMicr"
+
+
+         />
+  <action name="onhoverIcon3dMicr">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon3dMicr">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Spectr -->
+
+
+  <style name="IconSpectr"
+         url="%FIRSTXML%/spots/frame_15_user_defaultpoint4.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconSpectr"
+         onout="onoutIconSpectr"
+
+
+         />
+  <action name="onhoverIconSpectr">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconSpectr">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Plamet -->
+
+
+  <style name="IconPlamet"
+         url="%FIRSTXML%/spots/frame_15_user_defaultpoint5.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconPlamet"
+         onout="onoutIconPlamet"
+
+
+         />
+  <action name="onhoverIconPlamet">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPlamet">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Plamet2 -->
+
+
+  <style name="IconPlamet2"
+         url="%FIRSTXML%/spots/frame_15_user_defaultpoint6.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconPlamet2"
+         onout="onoutIconPlamet2"
+
+
+         />
+  <action name="onhoverIconPlamet2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPlamet2">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Microscope1 -->
+<!-- id : gallery1 -->
+<!-- ********** -->
+
+<ptplugin name="gallery1" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="false" type="bool" />
+		<option name="container_width" value="1017" type="int" />
+		<option name="container_width_unit" value="pixel" type="string" />
+		<option name="container_height" value="600" type="int" />
+		<option name="container_height_unit" value="pixel" type="string" />
+		<option name="container_color" value="0b5793" type="string" />
+		<option name="container_alpha" value="0.80000000000000004" type="float" />
+		<option name="container_topleft_border_radius" value="10" type="int" />
+		<option name="container_topright_border_radius" value="10" type="int" />
+		<option name="container_bottomleft_border_radius" value="10" type="int" />
+		<option name="container_bottomright_border_radius" value="10" type="int" />
+		<option name="container_border_width" value="5" type="int" />
+		<option name="container_border_color" value="063a62" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="4e4e4e" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="topleft" type="string" />
+		<option name="title_font" value="Rockwell Extra Bold" type="string" />
+		<option name="title_size" value="28" type="int" />
+		<option name="title_weight" value="bold" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="ceddea" type="string" />
+		
+		<option name="caption_displayed" value="true" type="bool" />
+		<option name="caption_position" value="left" type="string" />
+		<option name="caption_font" value="Sitka Text" type="string" />
+		<option name="caption_size" value="18" type="int" />
+		<option name="caption_weight" value="normal" type="string" />
+		<option name="caption_style" value="normal" type="string" />
+		<option name="caption_decoration" value="none" type="string" />
+		<option name="caption_color" value="ceddea" type="string" />
+		<option name="caption_width" value="500" type="int" />
+		<option name="caption_height" value="75" type="int" />
+		<option name="caption_textalign" value="left" type="string" />
+		
+		<option name="play_displayed" value="false" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery1play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="ffffff" type="string" />
+		<option name="navprev_text" value="gallery1navprev_text" type="string" />
+		<option name="navnext_text" value="gallery1navnext_text" type="string" />
+
+
+		<option name="navprev_image" value="indexdata/graphics/gallery1/frame_14.png" type="string" />
+
+
+		<option name="navnext_image" value="indexdata/graphics/gallery1/frame_13.png" type="string" />
+
+
+		<option name="navigation_arrows" value="false" type="bool" />
+
+
+		<option name="leftarrow_image" value="indexdata/graphics/gallery1/frame_14.png" type="string" />
+
+
+		<option name="rightarrow_image" value="indexdata/graphics/gallery1/frame_13.png" type="string" />
+
+
+		<option name="fullscreen_displayed" value="false" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery1fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery1close_text" type="string" />
+
+		<option name="close_image" value="indexdata/graphics/gallery1/frame_9.png" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery1')" type="string" />
+		<option name="zorder" value="1" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery1/_dsc0247.jpg"/>
+		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery1/_dsc0236.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery1">
+	set(ptplugin[gallery1].jsready, true);
+</action>
+
+<action name="showGallery_gallery1">
+	ifnot(ptplugin[gallery1].isOpen,
+		set(ptplugin[gallery1].isOpen, true);
+		set(ptplugin[gallery1].doNotDeleteMe, false);
+		set(gallery1_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery1, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery1_boxurl,
+			closeKolorBox_gallery1();
+			delayedcall(0.3,showGallery_gallery1(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery1">
+	js(invokePluginFunction(gallery1, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery1">
+	js(invokePluginFunction(gallery1, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery1">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery1].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery1">
+	if(ptplugin[gallery1].jsready,
+		js(invokePluginFunction(gallery1, changeLanguage));
+	,
+		delayedcall(delay_gallery1, 0.1, changeLanguage_gallery1(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery1" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery1();"
+	/>
+
+<!-- ********** -->
+<!-- Microscope -->
+<!-- id : gallery -->
+<!-- ********** -->
+
+<ptplugin name="gallery" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="false" type="bool" />
+		<option name="container_width" value="1017" type="int" />
+		<option name="container_width_unit" value="pixel" type="string" />
+		<option name="container_height" value="600" type="int" />
+		<option name="container_height_unit" value="pixel" type="string" />
+		<option name="container_color" value="0b5793" type="string" />
+		<option name="container_alpha" value="0.80000000000000004" type="float" />
+		<option name="container_topleft_border_radius" value="10" type="int" />
+		<option name="container_topright_border_radius" value="10" type="int" />
+		<option name="container_bottomleft_border_radius" value="10" type="int" />
+		<option name="container_bottomright_border_radius" value="10" type="int" />
+		<option name="container_border_width" value="5" type="int" />
+		<option name="container_border_color" value="063a62" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="4e4e4e" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="topleft" type="string" />
+		<option name="title_font" value="Rockwell Extra Bold" type="string" />
+		<option name="title_size" value="28" type="int" />
+		<option name="title_weight" value="bold" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="ceddea" type="string" />
+		
+		<option name="caption_displayed" value="true" type="bool" />
+		<option name="caption_position" value="left" type="string" />
+		<option name="caption_font" value="Sitka Text" type="string" />
+		<option name="caption_size" value="18" type="int" />
+		<option name="caption_weight" value="normal" type="string" />
+		<option name="caption_style" value="normal" type="string" />
+		<option name="caption_decoration" value="none" type="string" />
+		<option name="caption_color" value="ceddea" type="string" />
+		<option name="caption_width" value="500" type="int" />
+		<option name="caption_height" value="75" type="int" />
+		<option name="caption_textalign" value="left" type="string" />
+		
+		<option name="play_displayed" value="false" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="galleryplay_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="ffffff" type="string" />
+		<option name="navprev_text" value="gallerynavprev_text" type="string" />
+		<option name="navnext_text" value="gallerynavnext_text" type="string" />
+
+
+		<option name="navprev_image" value="indexdata/graphics/gallery/frame_14.png" type="string" />
+
+
+		<option name="navnext_image" value="indexdata/graphics/gallery/frame_13.png" type="string" />
+
+
+		<option name="navigation_arrows" value="false" type="bool" />
+
+
+		<option name="leftarrow_image" value="indexdata/graphics/gallery/frame_14.png" type="string" />
+
+
+		<option name="rightarrow_image" value="indexdata/graphics/gallery/frame_13.png" type="string" />
+
+
+		<option name="fullscreen_displayed" value="false" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="galleryfullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="galleryclose_text" type="string" />
+
+		<option name="close_image" value="indexdata/graphics/gallery/frame_9.png" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery')" type="string" />
+		<option name="zorder" value="2" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery/_dsc0227.jpg"/>
+		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery/_dsc0231.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery">
+	set(ptplugin[gallery].jsready, true);
+</action>
+
+<action name="showGallery_gallery">
+	ifnot(ptplugin[gallery].isOpen,
+		set(ptplugin[gallery].isOpen, true);
+		set(ptplugin[gallery].doNotDeleteMe, false);
+		set(gallery_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery_boxurl,
+			closeKolorBox_gallery();
+			delayedcall(0.3,showGallery_gallery(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery">
+	js(invokePluginFunction(gallery, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery">
+	js(invokePluginFunction(gallery, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery">
+	if(ptplugin[gallery].jsready,
+		js(invokePluginFunction(gallery, changeLanguage));
+	,
+		delayedcall(delay_gallery, 0.1, changeLanguage_gallery(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery();"
+	/>
+
+<!-- ********** -->
+<!-- 3dMicr -->
+<!-- id : gallery2 -->
+<!-- ********** -->
+
+<ptplugin name="gallery2" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="false" type="bool" />
+		<option name="container_width" value="1017" type="int" />
+		<option name="container_width_unit" value="pixel" type="string" />
+		<option name="container_height" value="600" type="int" />
+		<option name="container_height_unit" value="pixel" type="string" />
+		<option name="container_color" value="0b5793" type="string" />
+		<option name="container_alpha" value="0.80000000000000004" type="float" />
+		<option name="container_topleft_border_radius" value="10" type="int" />
+		<option name="container_topright_border_radius" value="10" type="int" />
+		<option name="container_bottomleft_border_radius" value="10" type="int" />
+		<option name="container_bottomright_border_radius" value="10" type="int" />
+		<option name="container_border_width" value="5" type="int" />
+		<option name="container_border_color" value="063a62" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="4e4e4e" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="topleft" type="string" />
+		<option name="title_font" value="Rockwell Extra Bold" type="string" />
+		<option name="title_size" value="28" type="int" />
+		<option name="title_weight" value="bold" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="ceddea" type="string" />
+		
+		<option name="caption_displayed" value="true" type="bool" />
+		<option name="caption_position" value="left" type="string" />
+		<option name="caption_font" value="Sitka Text" type="string" />
+		<option name="caption_size" value="18" type="int" />
+		<option name="caption_weight" value="normal" type="string" />
+		<option name="caption_style" value="normal" type="string" />
+		<option name="caption_decoration" value="none" type="string" />
+		<option name="caption_color" value="ceddea" type="string" />
+		<option name="caption_width" value="500" type="int" />
+		<option name="caption_height" value="75" type="int" />
+		<option name="caption_textalign" value="left" type="string" />
+		
+		<option name="play_displayed" value="false" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery2play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="ffffff" type="string" />
+		<option name="navprev_text" value="gallery2navprev_text" type="string" />
+		<option name="navnext_text" value="gallery2navnext_text" type="string" />
+
+
+		<option name="navprev_image" value="indexdata/graphics/gallery2/frame_14.png" type="string" />
+
+
+		<option name="navnext_image" value="indexdata/graphics/gallery2/frame_13.png" type="string" />
+
+
+		<option name="navigation_arrows" value="false" type="bool" />
+
+
+		<option name="leftarrow_image" value="indexdata/graphics/gallery2/frame_14.png" type="string" />
+
+
+		<option name="rightarrow_image" value="indexdata/graphics/gallery2/frame_13.png" type="string" />
+
+
+		<option name="fullscreen_displayed" value="false" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery2fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery2close_text" type="string" />
+
+		<option name="close_image" value="indexdata/graphics/gallery2/frame_9.png" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery2')" type="string" />
+		<option name="zorder" value="3" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery2/_dsc0273.jpg"/>
+		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery2/_dsc0277.jpg"/>
+		<item name="item_3" title="gallery2picture_title2" caption="gallery2picture_caption2" value="indexdata/graphics/gallery2/_dsc0275.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery2">
+	set(ptplugin[gallery2].jsready, true);
+</action>
+
+<action name="showGallery_gallery2">
+	ifnot(ptplugin[gallery2].isOpen,
+		set(ptplugin[gallery2].isOpen, true);
+		set(ptplugin[gallery2].doNotDeleteMe, false);
+		set(gallery2_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery2, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery2_boxurl,
+			closeKolorBox_gallery2();
+			delayedcall(0.3,showGallery_gallery2(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery2">
+	js(invokePluginFunction(gallery2, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery2">
+	js(invokePluginFunction(gallery2, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery2">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery2].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery2">
+	if(ptplugin[gallery2].jsready,
+		js(invokePluginFunction(gallery2, changeLanguage));
+	,
+		delayedcall(delay_gallery2, 0.1, changeLanguage_gallery2(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery2" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery2();"
+	/>
+
+<!-- ********** -->
+<!-- Spectr -->
+<!-- id : gallery3 -->
+<!-- ********** -->
+
+<ptplugin name="gallery3" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="40" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="false" type="bool" />
+		<option name="container_width" value="1017" type="int" />
+		<option name="container_width_unit" value="pixel" type="string" />
+		<option name="container_height" value="600" type="int" />
+		<option name="container_height_unit" value="pixel" type="string" />
+		<option name="container_color" value="0b5793" type="string" />
+		<option name="container_alpha" value="0.80000000000000004" type="float" />
+		<option name="container_topleft_border_radius" value="25" type="int" />
+		<option name="container_topright_border_radius" value="25" type="int" />
+		<option name="container_bottomleft_border_radius" value="25" type="int" />
+		<option name="container_bottomright_border_radius" value="25" type="int" />
+		<option name="container_border_width" value="5" type="int" />
+		<option name="container_border_color" value="063a62" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="4e4e4e" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="false" type="bool" />
+		
+		<option name="caption_displayed" value="true" type="bool" />
+		<option name="caption_position" value="left" type="string" />
+		<option name="caption_font" value="Sitka Text" type="string" />
+		<option name="caption_size" value="18" type="int" />
+		<option name="caption_weight" value="normal" type="string" />
+		<option name="caption_style" value="normal" type="string" />
+		<option name="caption_decoration" value="none" type="string" />
+		<option name="caption_color" value="ceddea" type="string" />
+		<option name="caption_width" value="500" type="int" />
+		<option name="caption_height" value="75" type="int" />
+		<option name="caption_textalign" value="left" type="string" />
+		
+		<option name="play_displayed" value="false" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery3play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="ffffff" type="string" />
+		<option name="navprev_text" value="gallery3navprev_text" type="string" />
+		<option name="navnext_text" value="gallery3navnext_text" type="string" />
+
+
+		<option name="navprev_image" value="indexdata/graphics/gallery3/frame_14.png" type="string" />
+
+
+		<option name="navnext_image" value="indexdata/graphics/gallery3/frame_13.png" type="string" />
+
+
+		<option name="navigation_arrows" value="false" type="bool" />
+
+
+		<option name="leftarrow_image" value="indexdata/graphics/gallery3/frame_14.png" type="string" />
+
+
+		<option name="rightarrow_image" value="indexdata/graphics/gallery3/frame_13.png" type="string" />
+
+
+		<option name="fullscreen_displayed" value="false" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery3fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery3close_text" type="string" />
+
+		<option name="close_image" value="indexdata/graphics/gallery3/frame_9.png" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery3')" type="string" />
+		<option name="zorder" value="4" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallery3picture_title0" caption="gallery3picture_caption0" value="indexdata/graphics/gallery3/_1.png"/>
+		<item name="item_2" title="gallery3picture_title1" caption="gallery3picture_caption1" value="indexdata/graphics/gallery3/_dsc0267.jpg"/>
+		<item name="item_3" title="gallery3picture_title2" caption="gallery3picture_caption2" value="indexdata/graphics/gallery3/_dsc0272.jpg"/>
+		<item name="item_4" title="gallery3picture_title3" caption="gallery3picture_caption3" value="indexdata/graphics/gallery3/_dsc0280.jpg"/>
+		<item name="item_5" title="gallery3picture_title4" caption="gallery3picture_caption4" value="indexdata/graphics/gallery3/_dsc0282.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery3">
+	set(ptplugin[gallery3].jsready, true);
+</action>
+
+<action name="showGallery_gallery3">
+	ifnot(ptplugin[gallery3].isOpen,
+		set(ptplugin[gallery3].isOpen, true);
+		set(ptplugin[gallery3].doNotDeleteMe, false);
+		set(gallery3_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery3, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery3_boxurl,
+			closeKolorBox_gallery3();
+			delayedcall(0.3,showGallery_gallery3(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery3">
+	js(invokePluginFunction(gallery3, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery3">
+	js(invokePluginFunction(gallery3, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery3">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery3].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery3">
+	if(ptplugin[gallery3].jsready,
+		js(invokePluginFunction(gallery3, changeLanguage));
+	,
+		delayedcall(delay_gallery3, 0.1, changeLanguage_gallery3(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery3" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery3();"
+	/>
+
+<!-- ********** -->
+<!-- Microscope2 -->
+<!-- id : gallery4 -->
+<!-- ********** -->
+
+<ptplugin name="gallery4" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="false" type="bool" />
+		<option name="container_width" value="1017" type="int" />
+		<option name="container_width_unit" value="pixel" type="string" />
+		<option name="container_height" value="600" type="int" />
+		<option name="container_height_unit" value="pixel" type="string" />
+		<option name="container_color" value="0b5793" type="string" />
+		<option name="container_alpha" value="0.80000000000000004" type="float" />
+		<option name="container_topleft_border_radius" value="10" type="int" />
+		<option name="container_topright_border_radius" value="10" type="int" />
+		<option name="container_bottomleft_border_radius" value="10" type="int" />
+		<option name="container_bottomright_border_radius" value="10" type="int" />
+		<option name="container_border_width" value="5" type="int" />
+		<option name="container_border_color" value="063a62" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="4e4e4e" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="topleft" type="string" />
+		<option name="title_font" value="Rockwell Extra Bold" type="string" />
+		<option name="title_size" value="28" type="int" />
+		<option name="title_weight" value="bold" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="ceddea" type="string" />
+		
+		<option name="caption_displayed" value="true" type="bool" />
+		<option name="caption_position" value="left" type="string" />
+		<option name="caption_font" value="Sitka Text" type="string" />
+		<option name="caption_size" value="18" type="int" />
+		<option name="caption_weight" value="normal" type="string" />
+		<option name="caption_style" value="normal" type="string" />
+		<option name="caption_decoration" value="none" type="string" />
+		<option name="caption_color" value="ceddea" type="string" />
+		<option name="caption_width" value="500" type="int" />
+		<option name="caption_height" value="75" type="int" />
+		<option name="caption_textalign" value="left" type="string" />
+		
+		<option name="play_displayed" value="false" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery4play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="ffffff" type="string" />
+		<option name="navprev_text" value="gallery4navprev_text" type="string" />
+		<option name="navnext_text" value="gallery4navnext_text" type="string" />
+
+
+		<option name="navprev_image" value="indexdata/graphics/gallery4/frame_14.png" type="string" />
+
+
+		<option name="navnext_image" value="indexdata/graphics/gallery4/frame_13.png" type="string" />
+
+
+		<option name="navigation_arrows" value="false" type="bool" />
+
+
+		<option name="leftarrow_image" value="indexdata/graphics/gallery4/frame_14.png" type="string" />
+
+
+		<option name="rightarrow_image" value="indexdata/graphics/gallery4/frame_13.png" type="string" />
+
+
+		<option name="fullscreen_displayed" value="false" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery4fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery4close_text" type="string" />
+
+		<option name="close_image" value="indexdata/graphics/gallery4/frame_9.png" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery4')" type="string" />
+		<option name="zorder" value="5" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery4/_dsc0227.jpg"/>
+		<item name="item_2" title="gallery4picture_title1" caption="gallery4picture_caption1" value="indexdata/graphics/gallery4/"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery4">
+	set(ptplugin[gallery4].jsready, true);
+</action>
+
+<action name="showGallery_gallery4">
+	ifnot(ptplugin[gallery4].isOpen,
+		set(ptplugin[gallery4].isOpen, true);
+		set(ptplugin[gallery4].doNotDeleteMe, false);
+		set(gallery4_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery4, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery4_boxurl,
+			closeKolorBox_gallery4();
+			delayedcall(0.3,showGallery_gallery4(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery4">
+	js(invokePluginFunction(gallery4, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery4">
+	js(invokePluginFunction(gallery4, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery4">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery4].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery4">
+	if(ptplugin[gallery4].jsready,
+		js(invokePluginFunction(gallery4, changeLanguage));
+	,
+		delayedcall(delay_gallery4, 0.1, changeLanguage_gallery4(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery4" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery4();"
+	/>
+
+<!-- ********** -->
+<!-- Plamet -->
+<!-- id : gallery5 -->
+<!-- ********** -->
+
+<ptplugin name="gallery5" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="false" type="bool" />
+		<option name="container_width" value="1017" type="int" />
+		<option name="container_width_unit" value="pixel" type="string" />
+		<option name="container_height" value="600" type="int" />
+		<option name="container_height_unit" value="pixel" type="string" />
+		<option name="container_color" value="0b5793" type="string" />
+		<option name="container_alpha" value="0.80000000000000004" type="float" />
+		<option name="container_topleft_border_radius" value="10" type="int" />
+		<option name="container_topright_border_radius" value="10" type="int" />
+		<option name="container_bottomleft_border_radius" value="10" type="int" />
+		<option name="container_bottomright_border_radius" value="10" type="int" />
+		<option name="container_border_width" value="5" type="int" />
+		<option name="container_border_color" value="063a62" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="4e4e4e" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="topleft" type="string" />
+		<option name="title_font" value="Rockwell Extra Bold" type="string" />
+		<option name="title_size" value="28" type="int" />
+		<option name="title_weight" value="bold" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="ceddea" type="string" />
+		
+		<option name="caption_displayed" value="true" type="bool" />
+		<option name="caption_position" value="left" type="string" />
+		<option name="caption_font" value="Sitka Text" type="string" />
+		<option name="caption_size" value="18" type="int" />
+		<option name="caption_weight" value="normal" type="string" />
+		<option name="caption_style" value="normal" type="string" />
+		<option name="caption_decoration" value="none" type="string" />
+		<option name="caption_color" value="ceddea" type="string" />
+		<option name="caption_width" value="500" type="int" />
+		<option name="caption_height" value="75" type="int" />
+		<option name="caption_textalign" value="left" type="string" />
+		
+		<option name="play_displayed" value="false" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery5play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="ffffff" type="string" />
+		<option name="navprev_text" value="gallery5navprev_text" type="string" />
+		<option name="navnext_text" value="gallery5navnext_text" type="string" />
+
+
+		<option name="navprev_image" value="indexdata/graphics/gallery5/frame_14.png" type="string" />
+
+
+		<option name="navnext_image" value="indexdata/graphics/gallery5/frame_13.png" type="string" />
+
+
+		<option name="navigation_arrows" value="false" type="bool" />
+
+
+		<option name="leftarrow_image" value="indexdata/graphics/gallery5/frame_14.png" type="string" />
+
+
+		<option name="rightarrow_image" value="indexdata/graphics/gallery5/frame_13.png" type="string" />
+
+
+		<option name="fullscreen_displayed" value="false" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery5fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery5close_text" type="string" />
+
+		<option name="close_image" value="indexdata/graphics/gallery5/frame_9.png" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery5')" type="string" />
+		<option name="zorder" value="6" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallery5picture_title0" caption="gallery5picture_caption0" value="indexdata/graphics/gallery5/_dsc0003.jpg"/>
+		<item name="item_2" title="gallery5picture_title1" caption="gallery5picture_caption1" value="indexdata/graphics/gallery5/_dsc0010.jpg"/>
+		<item name="item_3" title="gallery5picture_title2" caption="gallery5picture_caption2" value="indexdata/graphics/gallery5/_dsc9998.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery5">
+	set(ptplugin[gallery5].jsready, true);
+</action>
+
+<action name="showGallery_gallery5">
+	ifnot(ptplugin[gallery5].isOpen,
+		set(ptplugin[gallery5].isOpen, true);
+		set(ptplugin[gallery5].doNotDeleteMe, false);
+		set(gallery5_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery5, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery5_boxurl,
+			closeKolorBox_gallery5();
+			delayedcall(0.3,showGallery_gallery5(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery5">
+	js(invokePluginFunction(gallery5, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery5">
+	js(invokePluginFunction(gallery5, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery5">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery5].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery5">
+	if(ptplugin[gallery5].jsready,
+		js(invokePluginFunction(gallery5, changeLanguage));
+	,
+		delayedcall(delay_gallery5, 0.1, changeLanguage_gallery5(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery5" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery5();"
+	/>
+
+<!-- ********** -->
+<!-- Plamet2 -->
+<!-- id : gallery6 -->
+<!-- ********** -->
+
+<ptplugin name="gallery6" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="false" type="bool" />
+		<option name="container_width" value="1017" type="int" />
+		<option name="container_width_unit" value="pixel" type="string" />
+		<option name="container_height" value="600" type="int" />
+		<option name="container_height_unit" value="pixel" type="string" />
+		<option name="container_color" value="0b5793" type="string" />
+		<option name="container_alpha" value="0.80000000000000004" type="float" />
+		<option name="container_topleft_border_radius" value="10" type="int" />
+		<option name="container_topright_border_radius" value="10" type="int" />
+		<option name="container_bottomleft_border_radius" value="10" type="int" />
+		<option name="container_bottomright_border_radius" value="10" type="int" />
+		<option name="container_border_width" value="5" type="int" />
+		<option name="container_border_color" value="063a62" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="4e4e4e" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="topleft" type="string" />
+		<option name="title_font" value="Rockwell Extra Bold" type="string" />
+		<option name="title_size" value="28" type="int" />
+		<option name="title_weight" value="bold" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="ceddea" type="string" />
+		
+		<option name="caption_displayed" value="true" type="bool" />
+		<option name="caption_position" value="left" type="string" />
+		<option name="caption_font" value="Sitka Text" type="string" />
+		<option name="caption_size" value="18" type="int" />
+		<option name="caption_weight" value="normal" type="string" />
+		<option name="caption_style" value="normal" type="string" />
+		<option name="caption_decoration" value="none" type="string" />
+		<option name="caption_color" value="ceddea" type="string" />
+		<option name="caption_width" value="500" type="int" />
+		<option name="caption_height" value="75" type="int" />
+		<option name="caption_textalign" value="left" type="string" />
+		
+		<option name="play_displayed" value="false" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery6play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="ffffff" type="string" />
+		<option name="navprev_text" value="gallery6navprev_text" type="string" />
+		<option name="navnext_text" value="gallery6navnext_text" type="string" />
+
+
+		<option name="navprev_image" value="indexdata/graphics/gallery6/frame_14.png" type="string" />
+
+
+		<option name="navnext_image" value="indexdata/graphics/gallery6/frame_13.png" type="string" />
+
+
+		<option name="navigation_arrows" value="false" type="bool" />
+
+
+		<option name="leftarrow_image" value="indexdata/graphics/gallery6/frame_14.png" type="string" />
+
+
+		<option name="rightarrow_image" value="indexdata/graphics/gallery6/frame_13.png" type="string" />
+
+
+		<option name="fullscreen_displayed" value="false" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery6fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery6close_text" type="string" />
+
+		<option name="close_image" value="indexdata/graphics/gallery6/frame_9.png" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery6')" type="string" />
+		<option name="zorder" value="7" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallery6picture_title0" caption="gallery6picture_caption0" value="indexdata/graphics/gallery6/_dsc9990.jpg"/>
+		<item name="item_2" title="gallery6picture_title1" caption="gallery6picture_caption1" value="indexdata/graphics/gallery6/_dsc9991.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery6">
+	set(ptplugin[gallery6].jsready, true);
+</action>
+
+<action name="showGallery_gallery6">
+	ifnot(ptplugin[gallery6].isOpen,
+		set(ptplugin[gallery6].isOpen, true);
+		set(ptplugin[gallery6].doNotDeleteMe, false);
+		set(gallery6_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery6, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery6_boxurl,
+			closeKolorBox_gallery6();
+			delayedcall(0.3,showGallery_gallery6(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery6">
+	js(invokePluginFunction(gallery6, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery6">
+	js(invokePluginFunction(gallery6, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery6">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery6].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery6">
+	if(ptplugin[gallery6].jsready,
+		js(invokePluginFunction(gallery6, changeLanguage));
+	,
+		delayedcall(delay_gallery6, 0.1, changeLanguage_gallery6(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery6" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery6();"
+	/>
+
+<!-- ********** -->
+<!-- Classic Thumbnails Bar -->
+<!-- id : thumbnailsBar-theme02 -->
+<!-- ********** -->
+
+
+
+
+
+
+<layer name="thumbnailsBar_thumbnailsBar_theme02" 
+	keep="true" 
+	type="image" 
+	visible="false"
+	align="top" 
+	
+		width="75%" 
+		height="0" 
+		
+	
+	x="0"
+	y="10"
+	
+	url="%FIRSTXML%/graphics/classicthumbnailsbar/frame_bg.png" 
+	scale9grid="10|10|80|80"
+	
+	zorder="8"
+/>
+
+
+<layer name="thumbnailBorderSource_thumbnailsBar_theme02"
+	keep="true"
+	visible="false"
+	onloaded="loadedImages_thumbnailsBar_theme02(border);"
+	url="%FIRSTXML%/graphics/classicthumbnailsbar/thumbnails_states.png" 
+	offsetX="10"
+	offsetY="10"
+	quarterHeight="0"
+/>
+
+
+	
+	<krpano arrow1Loaded_thumbnailsBar_theme02="false" arrow2Loaded_thumbnailsBar_theme02="false" borderLoaded_thumbnailsBar_theme02="false" thumbnailsLoadedCounter_thumbnailsBar_theme02="0" thumbsCount_thumbnailsBar_theme02="0" thumbsCounter_thumbnailsBar_theme02="0" firstInit_thumbnailsBar_theme02="false" />
+	
+	
+	<events name="thumbnailsScrollEvents_thumbnailsBar_theme02" 
+		keep="true" 
+		
+		onxmlcomplete="ifnot(startResize_thumbnailsBar_theme02,set(isLoaded_thumbnailsBar_theme02, true);if(isStarted_thumbnailsBar_theme02,onLoadCompleteHandler_thumbnailsBar_theme02();););"
+		onTourStart="set(isStarted_thumbnailsBar_theme02, true);if(isLoaded_thumbnailsBar_theme02,onLoadCompleteHandler_thumbnailsBar_theme02(););"
+		onnewpano="if(startResize_thumbnailsBar_theme02,if(firstInit_thumbnailsBar_theme02,onLoadCompleteHandler_thumbnailsBar_theme02();););"
+		onresize="onResizeHandler_thumbnailsBar_theme02();"
+		hidetourthumbnails="hideWithThumbnailsButton_thumbnailsBar_theme02();" 
+		showtourthumbnails="showWithThumbnailsButton_thumbnailsBar_theme02();" 
+		hidetourcontrols="hideWithControlsBar_thumbnailsBar_theme02();" 
+		showtourcontrols="showWithControlsBar_thumbnailsBar_theme02();" 
+		onenterfullscreen="delayedcall(0.2,scrollToCurrentThumb_thumbnailsBar_theme02(););"
+		onexitfullscreen="delayedcall(0.2,scrollToCurrentThumb_thumbnailsBar_theme02(););"	
+	/>
+	
+	
+	<layer name="scrollAreaContainer_thumbnailsBar_theme02" 
+         keep="true"
+         type="container" 
+         align="topleft" x="5" y="5"
+         marginX="5"
+         marginY="5"
+         width="0" height="0"
+         targetWidth="0"
+         targetHeight="0"
+         scrollSpeedInit="10"
+         scrollSpeed="10"
+         scrollSpeedMax="70"
+         scrollSpeedAcceleration="20"
+         parent="thumbnailsBar_thumbnailsBar_theme02"
+         thumbWidth="0"
+         thumbHeight="0"
+         itemWidth="75"
+         itemHeight="37"
+         offsetX="0" offsetY="0"
+         thumbSpacer="0"
+         currentThumbsCount="0"
+         adjustToContent="false"
+         zorder="1"
+         visible="false"
+         ready="false">
+	
+		
+    <layer name="thumbsScrollArea_thumbnailsBar_theme02"
+           url.flash="%FIRSTXML%/graphics/scrollarea.swf"
+           url.html5="%FIRSTXML%/graphics/scrollarea.js"
+           align="top" x="0" y="0"
+           onhover_autoscrolling="false"
+           direction="h"/>
+	
+	</layer>
+	
+	
+	<layer name="scrollPrevArrow_thumbnailsBar_theme02" 
+         keep="true"
+         type="image"
+         visible="false"
+         parent="thumbnailsBar_thumbnailsBar_theme02"
+         targetHeight="0"
+         targetWidth="0"
+         zorder="2"
+         onloaded="loadedImages_thumbnailsBar_theme02(arrow1);"
+         url="%FIRSTXML%/graphics/classicthumbnailsbar/btn_scroll_left.png"
+         align="left"
+	/>
+	
+	
+	<layer name="scrollNextArrow_thumbnailsBar_theme02" 
+         keep="true"
+         type="image"
+         visible="false"
+         parent="thumbnailsBar_thumbnailsBar_theme02"
+         targetHeight="0"
+         targetWidth="0"
+         zorder="2"
+         onloaded="loadedImages_thumbnailsBar_theme02(arrow2);"
+         url="%FIRSTXML%/graphics/classicthumbnailsbar/btn_scroll_right.png"
+         align="right"
+	/>
+	
+	<action name="loadedImages_thumbnailsBar_theme02">
+		if(%1 == "arrow1",
+			set(arrow1Loaded_thumbnailsBar_theme02, true);
+		);
+		if(%1 == "arrow2",
+			set(arrow2Loaded_thumbnailsBar_theme02, true);
+		);
+		if(%1 == "border",
+			if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+				set(borderLoaded_thumbnailsBar_theme02, true);
+			);
+		);
+		if(%1 == "thumbnail",
+			inc(thumbnailsLoadedCounter_thumbnailsBar_theme02);
+		);
+	</action>
+	
+	<action name="onLoadCompleteHandler_thumbnailsBar_theme02">
+		
+		set(thumbsCount_thumbnailsBar_theme02, 0);
+		
+		
+		set(thumbsCount_thumbnailsBar_theme02, get(scene.count));
+		
+		
+		
+		
+		
+		
+		
+		loadThumbs_thumbnailsBar_theme02();
+		
+		if(firstInit_thumbnailsBar_theme02,
+			onLoadCompleteHandlerPartThree_thumbnailsBar_theme02();
+		,
+			onLoadCompleteHandlerPartTwo_thumbnailsBar_theme02();
+		);
+	</action>
+	
+	<action name="onLoadCompleteHandlerPartTwo_thumbnailsBar_theme02">
+		set(imgCounter_thumbnailsBar_theme02, 3);
+		
+		if(arrow1Loaded_thumbnailsBar_theme02,
+			dec(imgCounter_thumbnailsBar_theme02);
+		);
+		if(arrow2Loaded_thumbnailsBar_theme02,
+			dec(imgCounter_thumbnailsBar_theme02);
+		);
+		if(thumbsCount_thumbnailsBar_theme02 == thumbnailsLoadedCounter_thumbnailsBar_theme02,
+			dec(imgCounter_thumbnailsBar_theme02);
+		);
+		
+		if(imgCounter_thumbnailsBar_theme02 LE 0,
+			stopdelayedcall(delayedCallOnLoadComplete_thumbnailsBar_theme02);
+			onLoadCompleteHandlerPartThree_thumbnailsBar_theme02();
+		,
+			delayedcall(delayedCallOnLoadComplete_thumbnailsBar_theme02, 0.2, onLoadCompleteHandlerPartTwo_thumbnailsBar_theme02());
+		);
+	</action>
+	
+	<action name="onLoadCompleteHandlerPartThree_thumbnailsBar_theme02">
+		resetMouseBehavior_thumbnailsBar_theme02();
+		highlightCurrentThumb_thumbnailsBar_theme02();
+		
+		
+		if(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent,
+			mul(adjustWidth_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginX), 2);
+			add(adjustWidth_thumbnailsBar_theme02, get(layer[thumbsScrollArea_thumbnailsBar_theme02].width));
+			mul(adjustHeight_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginY), 2);
+			add(adjustHeight_thumbnailsBar_theme02, get(layer[thumbsScrollArea_thumbnailsBar_theme02].height));
+			
+			
+			if(adjustWidth_thumbnailsBar_theme02 GT stagewidth,
+				set(adjustWidth_thumbnailsBar_theme02, get(stagewidth));
+				set(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent, false);
+			,
+				if(adjustHeight_thumbnailsBar_theme02 GT stageheight,
+					set(adjustHeight_thumbnailsBar_theme02, get(stageheight));
+					set(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent, false);
+				);
+			);
+			
+			setSize_thumbnailsBar_theme02(get(adjustWidth_thumbnailsBar_theme02), get(adjustHeight_thumbnailsBar_theme02));
+		);
+		
+		setupArrows_thumbnailsBar_theme02(true);
+		
+		
+		if (thumbsCounter_thumbnailsBar_theme02 LE 0,
+			set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, false);
+		);
+		
+		
+		set(startResize_thumbnailsBar_theme02, true);
+		set(firstInit_thumbnailsBar_theme02, true);
+	</action>
+	
+	
+	<action name="onResizeHandler_thumbnailsBar_theme02">
+		
+		delayedcall(0.1, onResizeCallback_thumbnailsBar_theme02(false); );
+	</action>
+	
+	
+	<action name="onResizeCallback_thumbnailsBar_theme02">
+		if(startResize_thumbnailsBar_theme02,
+			setSize_thumbnailsBar_theme02(get(layer[scrollAreaContainer_thumbnailsBar_theme02].targetWidth), get(layer[scrollAreaContainer_thumbnailsBar_theme02].targetHeight));
+			setupArrows_thumbnailsBar_theme02(%1);
+			
+			
+			if (thumbsCounter_thumbnailsBar_theme02 LE 0,
+				set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, false);
+			);
+		);
+	</action>
+	
+	
+		<action name="showWithThumbnailsButton_thumbnailsBar_theme02">
+			set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, true);
+			onResizeCallback_thumbnailsBar_theme02(true);
+		</action>
+		
+		<action name="hideWithThumbnailsButton_thumbnailsBar_theme02">
+			set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, false);
+		</action>
+	
+	
+		<action name="showWithControlsBar_thumbnailsBar_theme02">
+			
+				if (tour_displaythumbnails,
+					set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, true);
+					onResizeCallback_thumbnailsBar_theme02(true);
+				,
+					set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, false);
+				);
+		</action>
+		
+		<action name="hideWithControlsBar_thumbnailsBar_theme02">
+			set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, false);
+		</action>
+	
+	
+	<action name="thumbnailBorderDrawInit_thumbnailsBar_theme02">
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetX, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderWidth));
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetY, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderWidth));
+		
+		
+		mul(totalOffsetX_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderWidth), 2);
+		mul(totalOffsetY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderWidth), 2);
+		
+		
+		if(startResize_thumbnailsBar_theme02,
+			sub(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth, get(totalOffsetX_thumbnailsBar_theme02));
+			sub(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight, get(totalOffsetY_thumbnailsBar_theme02));
+		);
+		
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbWidth, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth));
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbHeight, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight));
+		
+		add(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth, get(totalOffsetX_thumbnailsBar_theme02));
+		add(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight, get(totalOffsetY_thumbnailsBar_theme02));
+	</action>
+		
+	
+	<action name="thumbnailBorderImageInit_thumbnailsBar_theme02">
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetX, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetX));
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetY, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetY));
+		
+		
+		mul(totalOffsetX_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetX), 2);
+		mul(totalOffsetY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetY), 2);
+		
+		
+		if(startResize_thumbnailsBar_theme02,
+			sub(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth, get(totalOffsetX_thumbnailsBar_theme02));
+			sub(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight, get(totalOffsetY_thumbnailsBar_theme02));
+		);
+		
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbWidth, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth));
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbHeight, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight));
+		
+		add(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth, get(totalOffsetX_thumbnailsBar_theme02));
+		add(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight, get(totalOffsetY_thumbnailsBar_theme02));
+		
+		
+		div(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].height), 4);
+		
+		
+		set(cropX_thumbnailsBar_theme02, 0);
+		set(cropY_thumbnailsBar_theme02, 0);
+		set(cropW_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].width));
+		set(cropH_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropDefault, get(cropX_thumbnailsBar_theme02), '|', get(cropY_thumbnailsBar_theme02), '|', get(cropW_thumbnailsBar_theme02), '|', get(cropH_thumbnailsBar_theme02));
+
+		
+		add(cropY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropHover, get(cropX_thumbnailsBar_theme02), '|', get(cropY_thumbnailsBar_theme02), '|', get(cropW_thumbnailsBar_theme02), '|', get(cropH_thumbnailsBar_theme02));
+		
+		
+		add(cropY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropSelected, get(cropX_thumbnailsBar_theme02), '|', get(cropY_thumbnailsBar_theme02), '|', get(cropW_thumbnailsBar_theme02), '|', get(cropH_thumbnailsBar_theme02));
+		
+		
+		add(cropY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropVisited, get(cropX_thumbnailsBar_theme02), '|', get(cropY_thumbnailsBar_theme02), '|', get(cropW_thumbnailsBar_theme02), '|', get(cropH_thumbnailsBar_theme02));
+		
+		
+		set(scaleX_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetX));
+		set(scaleY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetY));
+		sub(scaleW_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].width), get(totalOffsetX_thumbnailsBar_theme02));
+		sub(scaleH_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight), get(totalOffsetY_thumbnailsBar_theme02));
+		txtadd(layer[thumbnailBorderSource_thumbnailsBar_theme02].scale9grid, get(scaleX_thumbnailsBar_theme02), '|', get(scaleY_thumbnailsBar_theme02), '|', get(scaleW_thumbnailsBar_theme02), '|', get(scaleH_thumbnailsBar_theme02));
+	</action>
+	
+	
+	<action name="loadThumbs_thumbnailsBar_theme02">
+		if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			set(imgCounter_thumbnailsBar_theme02, 1);
+		,
+			set(imgCounter_thumbnailsBar_theme02, 0);
+		);
+		
+		if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			if(borderLoaded_thumbnailsBar_theme02,
+				dec(imgCounter_thumbnailsBar_theme02);
+			);
+		);
+		
+		if(imgCounter_thumbnailsBar_theme02 LE 0,
+			stopdelayedcall(delayedCallOnLoadCompleteBorder_thumbnailsBar_theme02);
+			loadThumbsPartTwo_thumbnailsBar_theme02();
+		,
+			delayedcall(delayedCallOnLoadCompleteBorder_thumbnailsBar_theme02, 0.2, loadThumbs_thumbnailsBar_theme02());
+		);
+	</action>
+	
+	<action name="loadThumbsPartTwo_thumbnailsBar_theme02">
+		ifnot(layer[scrollAreaContainer_thumbnailsBar_theme02].ready,
+			
+			
+			if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+				thumbnailBorderImageInit_thumbnailsBar_theme02();
+			,
+				thumbnailBorderDrawInit_thumbnailsBar_theme02();
+			);
+			
+			
+			set(thumbsCounter_thumbnailsBar_theme02, 0);
+			
+			
+				for( set(i_thumbnailsBar_theme02, 0), i_thumbnailsBar_theme02 LT scene.count, inc(i_thumbnailsBar_theme02),
+					createThumb_thumbnailsBar_theme02(get(scene[get(i_thumbnailsBar_theme02)].name), get(scene[get(i_thumbnailsBar_theme02)].thumburl), get(i_thumbnailsBar_theme02), get(scene[get(i_thumbnailsBar_theme02)].titleid));
+					inc(thumbsCounter_thumbnailsBar_theme02);
+				);
+			
+			
+			
+			
+			
+			
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].currentThumbsCount, get(thumbsCounter_thumbnailsBar_theme02));
+			
+			
+			setSize_thumbnailsBar_theme02(get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].width), get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].height));
+			
+			
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].visible, true);
+			
+			
+				if (tour_displaycontrols,
+					showWithControlsBar_thumbnailsBar_theme02();
+				,
+					hideWithControlsBar_thumbnailsBar_theme02();
+				);
+			
+			
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].ready, true);
+		);
+	</action>
+	
+	
+	<action name="setSize_thumbnailsBar_theme02">
+		
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].targetWidth, %1);
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].targetHeight, %2);
+		
+		
+		set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].width, %1);
+		set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].height, %2);
+		layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].updatepos();
+		
+		
+		mul(totalMarginX_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginX), 2);
+		mul(totalMarginY_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginY), 2);
+		
+			add(totalPluginHeight_thumbnailsBar_theme02, get(totalMarginY_thumbnailsBar_theme02), get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight));
+			
+			
+			
+			if(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].pixelheight LT totalPluginHeight_thumbnailsBar_theme02,
+				set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].height, get(totalPluginHeight_thumbnailsBar_theme02));
+			);
+		
+		layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].updatepos();
+		
+		
+		sub(containerWidth_thumbnailsBar_theme02, get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].pixelwidth), get(totalMarginX_thumbnailsBar_theme02));
+		sub(containerHeight_thumbnailsBar_theme02, get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].pixelheight), get(totalMarginY_thumbnailsBar_theme02));
+
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].width, get(containerWidth_thumbnailsBar_theme02));
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].height, get(containerHeight_thumbnailsBar_theme02));
+		
+		set(scrollAreaSize_thumbnailsBar_theme02, 0);
+		
+		
+		mul(totalThumbsSpacer_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].currentThumbsCount), get(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbSpacer));
+		sub(totalThumbsSpacer_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbSpacer));
+		
+		set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible, true);
+		
+
+			mul(scrollAreaSize_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth), get(layer[scrollAreaContainer_thumbnailsBar_theme02].currentThumbsCount));
+			add(scrollAreaSize_thumbnailsBar_theme02, get(totalThumbsSpacer_thumbnailsBar_theme02));
+			
+			set(layer[thumbsScrollArea_thumbnailsBar_theme02].width, get(scrollAreaSize_thumbnailsBar_theme02));
+			set(layer[thumbsScrollArea_thumbnailsBar_theme02].height, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight));
+			
+			
+			if(layer[scrollAreaContainer_thumbnailsBar_theme02].width LT layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth,
+				set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible, false);
+			,
+				verifyThumbnailsBarVisibility_thumbnailsBar_theme02();
+			);
+			
+		
+		
+		if(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].width LT 0,
+			set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible, false);
+		);
+		
+	</action>
+	
+	
+	<action name="verifyThumbnailsBarVisibility_thumbnailsBar_theme02">
+		if(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible,
+			set(boolValue_thumbnailsBar_theme02, false);
+			
+			if (tour_displaythumbnails,
+				if (tour_displaycontrols,
+					set(boolValue_thumbnailsBar_theme02, true);
+				);
+			);
+			
+			set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible, get(boolValue_thumbnailsBar_theme02));
+		);
+	</action>
+	
+	
+	<action name="createThumb_thumbnailsBar_theme02">
+
+			add(offsetFactor_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth), get(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbSpacer));
+	
+			mul(thumbIncPos_thumbnailsBar_theme02, %3, get(offsetFactor_thumbnailsBar_theme02));
+			
+			
+			if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+				add(thumbIncPos_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetX));
+			);
+			
+		
+		mul(negativeOffsetX_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetX), -1);
+		mul(negativeOffsetY_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetY), -1);
+		
+		set(thumbName, 'thumb_');
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '_thumbnailsBar_theme02');
+		addlayer(get(thumbName));
+
+		
+
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+		addlayer(get(thumbBorderName));
+		
+		
+		ifnot(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			set(layer[get(thumbBorderName)].type, container);
+			set(layer[get(thumbBorderName)].parent, thumbsScrollArea_thumbnailsBar_theme02);
+		);
+
+		
+		set(layer[get(thumbName)].onloaded, loadedImages_thumbnailsBar_theme02("thumbnail"););
+		set(layer[get(thumbName)].url, %2);
+		set(layer[get(thumbName)].keep, true);
+		set(layer[get(thumbName)].width, get(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbWidth));
+		set(layer[get(thumbName)].height, get(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbHeight));
+		set(layer[get(thumbName)].align, topleft);
+		
+		
+			set(layer[get(thumbName)].y, get(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetY));
+		
+			if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+				set(layer[get(thumbName)].parent, thumbsScrollArea_thumbnailsBar_theme02);
+				set(layer[get(thumbName)].x, get(thumbIncPos_thumbnailsBar_theme02));
+			,
+				set(layer[get(thumbName)].parent, get(thumbBorderName));
+				set(layer[get(thumbName)].x, get(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetX));
+				set(layer[get(thumbName)].onclick, resetMouseBehavior_thumbnailsBar_theme02(); mainloadscene(%1); delayedcall(0.1,highlightThumb_thumbnailsBar_theme02(%1)));
+			);	
+			
+		
+		
+		set(layer[get(thumbBorderName)].keep, true);
+		set(layer[get(thumbBorderName)].width, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth));
+		set(layer[get(thumbBorderName)].height, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight));
+		set(layer[get(thumbBorderName)].align, topleft);
+		
+		if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			set(layer[get(thumbBorderName)].url, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].url));
+			set(layer[get(thumbBorderName)].scale9grid, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].scale9grid));
+			set(layer[get(thumbBorderName)].parent, get(thumbName));
+			set(layer[get(thumbBorderName)].x, get(negativeOffsetX_thumbnailsBar_theme02));
+			set(layer[get(thumbBorderName)].y, get(negativeOffsetY_thumbnailsBar_theme02));
+			set(layer[get(thumbBorderName)].onclick, resetMouseBehavior_thumbnailsBar_theme02(); mainloadscene(%1); delayedcall(0.1,highlightThumb_thumbnailsBar_theme02(%1)));
+		,
+			
+				set(layer[get(thumbBorderName)].x, get(thumbIncPos_thumbnailsBar_theme02)); 
+				
+		);
+
+
+		
+		setupMouseBehavior_thumbnailsBar_theme02(%1, %4);
+		
+	</action>
+	
+	
+	
+	<action name="removeThumb_thumbnailsBar_theme02">
+		set(thumbName, 'thumb_');
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '_thumbnailsBar_theme02');
+		removelayer(get(thumbName));
+		
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+		removelayer(get(thumbBorderName));
+
+
+	</action>
+	
+	
+	
+	<action name="setupArrows_thumbnailsBar_theme02">
+		
+		if(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent,
+			hideArrows_thumbnailsBar_theme02();
+		,
+			ifnot(device.touchdevice,
+				
+					if(layer[scrollAreaContainer_thumbnailsBar_theme02].width LT layer[thumbsScrollArea_thumbnailsBar_theme02].width,
+				
+					showArrows_thumbnailsBar_theme02();
+				,
+					hideArrows_thumbnailsBar_theme02();
+				);
+			,
+				hideArrows_thumbnailsBar_theme02();
+			);
+		);
+		
+		
+		if(%1,
+			scrollToCurrentThumb_thumbnailsBar_theme02();
+		);
+		
+		
+			
+			if(layer[scrollAreaContainer_thumbnailsBar_theme02].width LT layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth,
+				set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible, false);
+			);
+	</action>
+	
+	
+	<action name="showArrows_thumbnailsBar_theme02">
+		
+		
+		
+		
+		set(layer[scrollPrevArrow_thumbnailsBar_theme02].visible, true);
+		set(layer[scrollNextArrow_thumbnailsBar_theme02].visible, true);
+		
+		
+		
+			
+			add(totalArrowSize_thumbnailsBar_theme02, get(layer[scrollPrevArrow_thumbnailsBar_theme02].width), get(layer[scrollNextArrow_thumbnailsBar_theme02].width));
+		
+			
+			sub(scrollAreaContainerSize_thumbnailsBar_theme02, get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].pixelwidth), get(totalArrowSize_thumbnailsBar_theme02));
+		
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].width, get(scrollAreaContainerSize_thumbnailsBar_theme02));
+			
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].x, get(layer[scrollPrevArrow_thumbnailsBar_theme02].width));
+			
+		
+		
+		set(layer[scrollPrevArrow_thumbnailsBar_theme02].onhover, scrollPrev_thumbnailsBar_theme02(););
+		set(layer[scrollNextArrow_thumbnailsBar_theme02].onhover, scrollNext_thumbnailsBar_theme02(););
+		
+		set(layer[scrollPrevArrow_thumbnailsBar_theme02].onclick, scrollPrev_thumbnailsBar_theme02(get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedAcceleration)););
+		set(layer[scrollNextArrow_thumbnailsBar_theme02].onclick, scrollNext_thumbnailsBar_theme02(get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedAcceleration)););
+		
+		
+		
+		
+		
+		set(layer[scrollPrevArrow_thumbnailsBar_theme02].onout, set(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed, get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedInit)););
+		set(layer[scrollNextArrow_thumbnailsBar_theme02].onout, set(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed, get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedInit)););
+		
+	</action>
+	
+	
+	
+	
+	<action name="hideArrows_thumbnailsBar_theme02">
+		
+		set(layer[scrollPrevArrow_thumbnailsBar_theme02].visible, false);
+		set(layer[scrollNextArrow_thumbnailsBar_theme02].visible, false);
+		
+		
+
+			mul(totalMargin_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginX), 2);
+			
+			sub(scrollAreaContainerSize_thumbnailsBar_theme02, get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].pixelwidth), get(totalMargin_thumbnailsBar_theme02));
+
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].width, get(scrollAreaContainerSize_thumbnailsBar_theme02));
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].x, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginX));
+			 
+			
+	</action>
+	
+	
+	<action name="scrollPrev_thumbnailsBar_theme02">
+		
+		
+		if(%1,
+			inc(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed, %1);
+		);
+		
+		layer[thumbsScrollArea_thumbnailsBar_theme02].stopscrolling();
+		
+		set(scrollLimit_thumbnailsBar_theme02, 0);
+		
+		
+			
+				sub(scrollLimit_thumbnailsBar_theme02, get(layer[thumbsScrollArea_thumbnailsBar_theme02].width), get(layer[scrollAreaContainer_thumbnailsBar_theme02].width));
+				div(scrollLimit_thumbnailsBar_theme02, 2);
+			
+			add(layer[thumbsScrollArea_thumbnailsBar_theme02].x, get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed));
+			if(layer[thumbsScrollArea_thumbnailsBar_theme02].x GE scrollLimit_thumbnailsBar_theme02,
+				set(layer[thumbsScrollArea_thumbnailsBar_theme02].x, get(scrollLimit_thumbnailsBar_theme02));
+			);
+		
+		if(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed LT layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedMax,
+			inc(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed);
+		);
+		
+	</action>
+	
+	
+	<action name="scrollNext_thumbnailsBar_theme02">
+		
+		
+		if(%1,
+			inc(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed, %1);
+		);
+		
+		layer[thumbsScrollArea_thumbnailsBar_theme02].stopscrolling();
+		
+			
+			sub(scrollLimit_thumbnailsBar_theme02, get(layer[thumbsScrollArea_thumbnailsBar_theme02].width), get(layer[scrollAreaContainer_thumbnailsBar_theme02].width));
+			
+				div(scrollLimit_thumbnailsBar_theme02, 2);
+			mul(scrollLimit_thumbnailsBar_theme02, -1);
+			
+			sub(layer[thumbsScrollArea_thumbnailsBar_theme02].x, get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed));
+			if(layer[thumbsScrollArea_thumbnailsBar_theme02].x LE scrollLimit_thumbnailsBar_theme02,
+				set(layer[thumbsScrollArea_thumbnailsBar_theme02].x, get(scrollLimit_thumbnailsBar_theme02));
+			);
+		
+		if(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed LT layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedMax,
+			inc(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed);
+		);
+		
+	</action>
+	
+	
+	<action name="resetMouseBehavior_thumbnailsBar_theme02">
+	
+		
+		
+			for( set(j_thumbnailsBar_theme02, 0), j_thumbnailsBar_theme02 LT scene.count, inc(j_thumbnailsBar_theme02),
+				set(thumbBorderName, 'thumbBorder_');
+				txtadd(thumbBorderName, get(scene[get(j_thumbnailsBar_theme02)].name));
+				txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+				
+				setupMouseBehavior_thumbnailsBar_theme02(get(scene[get(j_thumbnailsBar_theme02)].name), get(scene[get(j_thumbnailsBar_theme02)].titleid));
+			);
+		
+	</action>
+	
+	
+	<action name="setupMouseBehavior_thumbnailsBar_theme02">
+
+		set(thumbName, 'thumb_');
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '_thumbnailsBar_theme02');
+		
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+		
+		if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			set(layer[get(thumbBorderName)].crop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropDefault));
+			set(layer[get(thumbBorderName)].onovercrop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropHover));
+			set(layer[get(thumbBorderName)].ondowncrop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropHover));
+			set(layer[get(thumbBorderName)].tooltip, %2);
+		,
+			set(layer[get(thumbBorderName)].bgcolor, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderColorDefault));
+			set(layer[get(thumbBorderName)].bgalpha, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderAlphaDefault));
+			
+			set(layer[get(thumbName)].onover, 
+				set(layer[get(parent)].bgcolor, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderColorHover));
+				set(layer[get(parent)].bgalpha, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderAlphaHover));
+			);
+			
+			set(layer[get(thumbName)].onout, 
+				set(layer[get(parent)].bgcolor, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderColorDefault));
+				set(layer[get(parent)].bgalpha, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderAlphaDefault));
+				
+			);
+		);
+	
+	</action>
+	
+	
+	<action name="highlightCurrentThumb_thumbnailsBar_theme02">
+			delayedcall(0.1,highlightThumb_thumbnailsBar_theme02(get(xml.scene)));
+	</action>
+	
+	
+	<action name="highlightThumb_thumbnailsBar_theme02">
+	
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+		
+		if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			set(layer[get(thumbBorderName)].crop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropSelected));
+			set(layer[get(thumbBorderName)].onovercrop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropSelected));
+			set(layer[get(thumbBorderName)].ondowncrop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropSelected));
+		,
+			set(thumbName, 'thumb_');
+			txtadd(thumbName, %1);
+			txtadd(thumbName, '_thumbnailsBar_theme02');
+			
+			set(layer[get(thumbBorderName)].bgcolor, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderColorSelected));
+			set(layer[get(thumbBorderName)].bgalpha, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderAlphaSelected));
+			
+			set(layer[get(thumbName)].onover, "");
+			set(layer[get(thumbName)].onout, "");
+		);
+
+		scrollToThumb_thumbnailsBar_theme02(%1);
+	</action>
+	
+	
+	<action name="scrollToCurrentThumb_thumbnailsBar_theme02">
+			scrollToThumb_thumbnailsBar_theme02(get(xml.scene));
+	</action>
+	
+	
+	<action name="scrollToThumb_thumbnailsBar_theme02">
+		
+		set(thumbName, 'thumb_');
+		set(thumbBorderName, 'thumbBorder_');
+		
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '_thumbnailsBar_theme02');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+
+			set(posX_thumbnailsBar_theme02, 0);
+			if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+				div(halfThumbWidth_thumbnailsBar_theme02, get(layer[get(thumbName)].width), 2);
+				ifnot(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent,
+					add(posX_thumbnailsBar_theme02, get(layer[get(thumbName)].x), get(halfThumbWidth_thumbnailsBar_theme02));
+				);
+				if(layer[thumbsScrollArea_thumbnailsBar_theme02].scrolltocenter,
+					layer[thumbsScrollArea_thumbnailsBar_theme02].scrolltocenter(get(posX_thumbnailsBar_theme02), 0);
+				);
+			,
+				div(halfThumbWidth_thumbnailsBar_theme02, get(layer[get(thumbBorderName)].width), 2);
+				ifnot(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent,
+					add(posX_thumbnailsBar_theme02, get(layer[get(thumbBorderName)].x), get(halfThumbWidth_thumbnailsBar_theme02));
+				);
+				if(layer[thumbsScrollArea_thumbnailsBar_theme02].scrolltocenter,
+					layer[thumbsScrollArea_thumbnailsBar_theme02].scrolltocenter(get(posX_thumbnailsBar_theme02), 0);
+				);
+			);
+		
+	</action>
+	
+
+
+
+
+
+<!-- ********** -->
+<!-- Floor plan -->
+<!-- id : floorPlan -->
+<!-- ********** -->
+
+	<ptplugin name="floorPlan" engine="KolorFloorPlan">
+		<settings>
+			<option name="background_color" value="f2f2f2" type="string" />
+			<option name="background_lighter_color" value="ffffff" type="string" />
+			<option name="background_darker_color" value="cacaca" type="string" />
+			<option name="background_alpha" value="1" type="float" />
+			<option name="text_color" value="000000" type="string" />
+
+			<option name="resize" value="false" type="bool" />
+			<option name="fp_selector" value="one" type="string" />
+			<option name="fp_selector_label" value="floorPlanmenu_label" type="string" />
+			<option name="display_title" value="false" type="bool" />
+			<option name="title_font" value="Verdana" type="string" />
+			<option name="title_size" value="14" type="int" />
+			<option name="title_weight" value="normal" type="string" />
+			<option name="title_decoration" value="normal" type="string" />
+			<option name="title_color" value="000000" type="string" />
+			<option name="display_orientation" value="false" type="bool" />
+			<option name="display_radar" value="false" type="bool" />
+			<option name="close_on_click" value="false" type="bool" />
+			<option name="position" value="bottomleft" type="string" />
+			<option name="zorder" value="9" type="int" />
+			<option name="use_i18n" value="true" type="bool" />
+		</settings>
+		
+		<floorplanItems selectedItem="" selectedSpot="" selectedSpotScene="" selectedSpotHeading="" selectedSpotFov="">
+			
+			
+							<floorplanItem 
+								name="fpitempanogroup1354" 
+								width="201" 
+								height="161" 
+								groupName="panogroup1354" 
+								url="floorplan/artboard_1_copy_2_panogroup1354.png" 
+								title="panogroup1354_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1880" 
+								width="201" 
+								height="161" 
+								groupName="panogroup1880" 
+								url="floorplan/artboard_1_copy_3_panogroup1880.png" 
+								title="panogroup1880_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1883" 
+								width="201" 
+								height="161" 
+								groupName="panogroup1883" 
+								url="floorplan/artboard_1_copy_2_panogroup1883.png" 
+								title="panogroup1883_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup2382" 
+								width="201" 
+								height="161" 
+								groupName="panogroup2382" 
+								url="floorplan/artboard_1_copy_4_panogroup2382.png" 
+								title="panogroup2382_floor_title"
+								heading="0">
+							</floorplanItem>
+		</floorplanItems>
+	</ptplugin>
+	
+	<action name="kolorFloorplanJsReady_floorPlan">
+		set(ptplugin[floorPlan].jsready, true);
+		
+		ifnot(ptplugin[floorPlan].floorplanItems.selectedSpot == "",
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotFov, get(view.hfov));
+			js(invokePluginFunction(floorPlan, setKolorFloorPlanSelectedSpotOptions, get(xml.scene), get(view.hlookat), get(view.hfov)));
+		);
+	</action>
+	
+	
+	
+					<!-- floorplan panogroup1354 spots counter : 0 -->
+					<!-- floorplan panogroup1880 spots counter : 0 -->
+					<!-- floorplan panogroup1883 spots counter : 0 -->
+					<!-- floorplan panogroup2382 spots counter : 0 -->
+	
+	
+	<events name="floorPlanEvents" 
+	onxmlcomplete="ifnot(floorPlanFloorPlanLoaded,set(tour_displayfloorplan,true););floorPlanActivateDefaultSpot();" 
+	onhidetourfloorplan="delayedcall(0.3,floorPlanCloseTourFloorPlan(););" 
+	onshowtourfloorplan="if(tour_displayfloorplan,floorPlanOpenTourFloorPlan(););" 
+	onTourStart="floorPlanOpenTourFloorPlan();"
+	changetourlanguage="floorPlanChangeLanguage();"
+	keep="true" />
+	
+	<action name="floorPlanChangeLanguage">
+		if(ptplugin[floorPlan].jsready,
+			stopdelayedcall(delay_floorPlan);
+			js(invokePluginFunction(floorPlanArea, changeLanguage, false));
+			js(invokePluginFunction(floorPlan, changeLanguage));
+		,
+			delayedcall(delay_floorPlan, 0.1, floorPlanChangeLanguage(););
+		);
+	</action>
+	
+	
+	<krpano floorPlanFloorPlanLoaded="false" />
+	
+	<action name="floorPlanHideTourFloorPlan">
+		hideKolorArea_floorPlanArea(false);
+	</action>
+	
+	<action name="floorPlanCloseTourFloorPlan">
+		closeKolorArea_floorPlanArea();
+	</action>
+	
+	<action name="floorPlanShowTourFloorPlan">
+		if(ptplugin[floorPlanArea].isOpen === null,
+			openKolorArea_floorPlanArea();
+		,
+			showKolorArea_floorPlanArea(false);
+		);
+	</action>
+	
+	<action name="floorPlanOpenTourFloorPlan">
+		openKolorArea_floorPlanArea();
+	</action>
+	
+	
+	<action name="floorPlanActivateSpot">
+		
+		set(ptplugin[floorPlan].floorplanItems.selectedSpot, %1);
+		set(ptplugin[floorPlan].floorplanItems.selectedItem, %2);
+		
+		if(%1 !== "",
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotScene, get(xml.scene));
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotHeading, get(view.hlookat));
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotFov, get(view.hfov));
+		);
+		
+		
+		if(ptplugin[floorPlanArea].isOpen,
+			floorPlanSelectActivatedSpot(%1, %2, %3);
+		);
+	</action>
+	
+	<action name="floorPlanSelectActivatedSpot">
+		js(invokePluginFunction(floorPlan, selectSpot, %1, %2, %3));
+
+	</action>
+	
+	<action name="floorPlanDeactivateSpot">
+		set(ptplugin[floorPlan].floorplanItems.selectedSpot, "");
+		
+		js(invokePluginFunction(floorPlan, unselectSpot));
+	</action>
+	
+	<action name="floorPlanActivateDefaultSpot">
+		set(floorPlanFloorPlanLoaded, true);
+		
+		set(floorPlanSpotFound, "");
+		set(floorPlanSpotScene, "");
+		set(floorPlanItemFound, "");
+		set(floorPlanItemSearch, true);
+		set(floorPlanSpotSearchActivated, true);
+		set(floorPlanSpotSearchContinue, true);
+		
+		
+		for(set(defaultfloorplaniteminc,0), defaultfloorplaniteminc LT ptplugin[floorPlan].floorplanItems.floorplanItem.count , inc(defaultfloorplaniteminc),
+                        if(floorPlanSpotSearchActivated == true,
+				
+				if(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].groupName == scene[get(xml.scene)].group,
+					set(floorPlanItemFound, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+					set(ptplugin[floorPlan].floorplanItems.selectedItem, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+					set(floorPlanItemSearch, false);
+				,
+					
+					if(floorPlanItemFound == "",
+						set(floorPlanItemFound, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+					);
+				);
+			);
+			if(floorPlanSpotSearchActivated == true,
+                                for(set(defaultspotinc,0), defaultspotinc LT ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot.count , inc(defaultspotinc),
+                                        if(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].isScene == true,
+					
+						if(floorPlanSpotSearchContinue == true,
+							if(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].scene == xml.scene,
+								set(floorPlanSpotFound, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].name));
+								set(floorPlanSpotScene, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].scene));
+								set(ptplugin[floorPlan].floorplanItems.selectedItem, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+								if(floorPlanItemSearch == false,
+									set(floorPlanSpotSearchContinue, false);
+									set(floorPlanSpotSearchActivated, false);
+								);
+							);
+						);
+					);
+					
+				);
+			);
+		);
+		
+		if(floorPlanSpotFound == "",
+			
+			
+			floorPlanDeactivateSpot();
+			
+			
+			set(ptplugin[floorPlan].floorplanItems.selectedItem, get(floorPlanItemFound));
+			
+			
+			ifnot(ptplugin[floorPlan].floorplanItems.selectedItem == "",
+				floorPlanActivateSpot("", get(ptplugin[floorPlan].floorplanItems.selectedItem), "");
+			);
+		,
+			
+			floorPlanActivateSpot(get(floorPlanSpotFound), get(ptplugin[floorPlan].floorplanItems.selectedItem), get(floorPlanSpotScene));
+		);
+	</action>
+	
+	<action name="floorPlanChangeTitle">
+		js(invokePluginFunction(floorPlan, changeTitle, %1));
+	</action>
+	
+	<ptplugin name="floorPlanArea" engine="kolorArea">
+	<settings>
+		<option name="position" value="bottomleft" type="string" />
+		<option name="start_position" value="left" type="string" />
+		<option name="margin_x" value="15" type="int" />
+		<option name="margin_y" value="15" type="int" />
+		<option name="display_title" value="false" type="bool" />
+		<option name="title_font" value="Verdana" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_decoration" value="normal" type="string" />
+		<option name="title_color" value="000000" type="string" />
+		<option name="close_displayed" value="false" type="bool" />
+		<option name="close_text" value="floorPlandisplay_close_text" type="string" />
+
+		<option name="background_color" value="f2f2f2" type="string" />
+		<option name="background_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="padding" value="15" type="int" />
+		<option name="topleft_radius" value="0" type="int" />
+		<option name="topright_radius" value="0" type="int" />
+		<option name="bottomleft_radius" value="0" type="int" />
+		<option name="bottomright_radius" value="0" type="int" />
+		<option name="area_border_width" value="0" type="int" />
+		<option name="area_border_color" value="f2f2f2" type="string" />
+		<option name="area_border_alpha" value="1" type="float" />
+		<option name="area_width" value="200" type="int" />
+		<option name="area_height" value="160" type="int" />
+		<option name="area_width_unit" value="pixel" type="string" />
+		<option name="area_height_unit" value="pixel" type="string" />
+		<option name="animation" value="false" type="bool" />
+		<option name="animation_duration" value="500" type="int" />
+		<option name="close_on_click" value="false" type="bool" />
+		<option name="refresh_content" value="false" type="bool" />
+		<option name="open_callback" value="addKolorFloorPlan('floorPlan', 'floorPlanArea_floorplanDIV');" type="string" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback_floorPlanArea')" type="string" />
+		<option name="zorder" value="9" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	</ptplugin>
+	
+	<action name="kolorAreaJsReady_floorPlanArea">
+		set(ptplugin[floorPlanArea].jsready, true);
+
+		inc(tour_autorotation_openatstartplugin);
+		set(ptplugin[floorPlanArea].autorotateBlocked, true);
+
+	</action>
+	
+	<action name="openKolorArea_floorPlanArea">
+		ifnot(ptplugin[floorPlanArea].isOpen,
+			if(ptplugin[floorPlanArea].doNotDeleteMe,
+				set(ptplugin[floorPlanArea].currentCall, false);
+				set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+			set(ptplugin[floorPlanArea].isOpen, true);
+			pauseautorotation(forceplugin);
+
+			js(showKolorArea(floorPlanArea, &lt;div id="floorPlanArea_floorplanDIV"&gt;&lt;/div&gt;));
+			
+			if(ptplugin[floorPlan].floorplanItems.selectedSpot != "",
+				floorPlanSelectActivatedSpot(get(ptplugin[floorPlan].floorplanItems.selectedSpot), get(ptplugin[floorPlan].floorplanItems.selectedItem), get(ptplugin[floorPlan].floorplanItems.selectedSpotScene));
+			);
+			,
+				set(ptplugin[floorPlanArea].currentCall, true);
+				set(ptplugin[floorPlanArea].doNotDeleteMe, true);
+				events.dispatch(onremovedisplayedobject);
+				delayedcall(0.3,openKolorArea_floorPlanArea(););
+			);
+		);
+	</action>
+	
+	<action name="closeKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,
+			if(ptplugin[floorPlanArea].doNotDeleteMe,
+				set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+			,
+			js(invokePluginFunction(floorPlanArea, closeKolorArea));
+			);
+		);
+	</action>
+	
+	<action name="toggleKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,
+			closeKolorArea_floorPlanArea();
+		,
+			openKolorArea_floorPlanArea();
+		);
+	</action>
+	
+	<action name="closeKolorAreaCallback_floorPlanArea">
+		set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+		if(ptplugin[floorPlanArea].isOpen,resumeautorotation(forceplugin);
+
+			if(ptplugin[floorPlanArea].autorotateBlocked,if(tour_autorotation_openatstartplugin GT 0,dec(tour_autorotation_openatstartplugin);set(ptplugin[floorPlanArea].autorotateBlocked,false);););
+		);
+		set(ptplugin[floorPlanArea].isOpen, false);hideFloorplan();
+
+	</action>
+	
+	<action name="changeTitleKolorArea_floorPlanArea">
+		js(invokePluginFunction(floorPlanArea, changeTitle, %1));
+	</action>
+	
+	<action name="showKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].doNotDeleteMe,
+			set(ptplugin[floorPlanArea].currentCall, false);
+			set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+		set(ptplugin[floorPlanArea].isOpen, true);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(floorPlanArea, showKolorArea, %1));
+		,
+			set(ptplugin[floorPlanArea].currentCall, true);
+			set(ptplugin[floorPlanArea].doNotDeleteMe, true);
+			events.dispatch(onremovedisplayedobject);
+			delayedcall(0.3,showKolorArea_floorPlanArea(););
+		);
+	</action>
+		
+	<action name="hideKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].doNotDeleteMe,
+			set(ptplugin[floorPlanArea].doNotDeleteMe, false);
+		,
+		resumeautorotation(forceplugin);
+
+		if(ptplugin[floorPlanArea].autorotateBlocked,if(tour_autorotation_openatstartplugin GT 0,dec(tour_autorotation_openatstartplugin);set(ptplugin[floorPlanArea].autorotateBlocked,false);););
+		set(ptplugin[floorPlanArea].isOpen, false);
+		js(invokePluginFunction(floorPlanArea, hideKolorArea, %1));
+		);
+	</action>
+	
+	<events name="kolorAreaEvents_floorPlanArea" 
+		keep="true"
+		onremovepano="if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+);"
+		onremovedisplayedobject="ifnot(ptplugin[floorPlanArea].currentCall,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+););"
+	/>
+	
+
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
+</krpano>
