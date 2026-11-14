@@ -219,7 +219,7 @@
 		<option name="title_displayed" value="true" type="bool" />
 		<option name="title_position" value="topleft" type="string" />
 		<option name="title_font" value="Rockwell Extra Bold" type="string" />
-		<option name="title_size" value="28" type="int" />
+		<option name="title_size" value="36" type="int" />
 		<option name="title_weight" value="bold" type="string" />
 		<option name="title_style" value="normal" type="string" />
 		<option name="title_decoration" value="none" type="string" />
@@ -228,7 +228,7 @@
 		<option name="caption_displayed" value="true" type="bool" />
 		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
-		<option name="caption_size" value="18" type="int" />
+		<option name="caption_size" value="24" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
 		<option name="caption_style" value="normal" type="string" />
 		<option name="caption_decoration" value="none" type="string" />
@@ -284,8 +284,8 @@
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
-		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery1/_dsc0247.jpg"/>
-		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery1/_dsc0236.jpg"/>
+		<item name="item_1" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery1/_dsc0236.jpg"/>
+		<item name="item_2" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery1/_dsc0247.jpg"/>
 	</internaldata>
 </ptplugin>
 
@@ -377,7 +377,7 @@
 		<option name="title_displayed" value="true" type="bool" />
 		<option name="title_position" value="topleft" type="string" />
 		<option name="title_font" value="Rockwell Extra Bold" type="string" />
-		<option name="title_size" value="28" type="int" />
+		<option name="title_size" value="36" type="int" />
 		<option name="title_weight" value="bold" type="string" />
 		<option name="title_style" value="normal" type="string" />
 		<option name="title_decoration" value="none" type="string" />
@@ -386,7 +386,7 @@
 		<option name="caption_displayed" value="true" type="bool" />
 		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
-		<option name="caption_size" value="18" type="int" />
+		<option name="caption_size" value="24" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
 		<option name="caption_style" value="normal" type="string" />
 		<option name="caption_decoration" value="none" type="string" />
@@ -535,7 +535,7 @@
 		<option name="title_displayed" value="true" type="bool" />
 		<option name="title_position" value="topleft" type="string" />
 		<option name="title_font" value="Rockwell Extra Bold" type="string" />
-		<option name="title_size" value="28" type="int" />
+		<option name="title_size" value="36" type="int" />
 		<option name="title_weight" value="bold" type="string" />
 		<option name="title_style" value="normal" type="string" />
 		<option name="title_decoration" value="none" type="string" />
@@ -544,7 +544,7 @@
 		<option name="caption_displayed" value="true" type="bool" />
 		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
-		<option name="caption_size" value="18" type="int" />
+		<option name="caption_size" value="24" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
 		<option name="caption_style" value="normal" type="string" />
 		<option name="caption_decoration" value="none" type="string" />
@@ -691,12 +691,19 @@
 		<option name="item_border_color" value="ffffff" type="string" />
 		<option name="item_border_alpha" value="1" type="float" />
 		
-		<option name="title_displayed" value="false" type="bool" />
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="topleft" type="string" />
+		<option name="title_font" value="Rockwell Extra Bold" type="string" />
+		<option name="title_size" value="36" type="int" />
+		<option name="title_weight" value="bold" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="ceddea" type="string" />
 		
 		<option name="caption_displayed" value="true" type="bool" />
 		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
-		<option name="caption_size" value="18" type="int" />
+		<option name="caption_size" value="24" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
 		<option name="caption_style" value="normal" type="string" />
 		<option name="caption_decoration" value="none" type="string" />
@@ -848,7 +855,7 @@
 		<option name="title_displayed" value="true" type="bool" />
 		<option name="title_position" value="topleft" type="string" />
 		<option name="title_font" value="Rockwell Extra Bold" type="string" />
-		<option name="title_size" value="28" type="int" />
+		<option name="title_size" value="36" type="int" />
 		<option name="title_weight" value="bold" type="string" />
 		<option name="title_style" value="normal" type="string" />
 		<option name="title_decoration" value="none" type="string" />
@@ -857,7 +864,7 @@
 		<option name="caption_displayed" value="true" type="bool" />
 		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
-		<option name="caption_size" value="18" type="int" />
+		<option name="caption_size" value="24" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
 		<option name="caption_style" value="normal" type="string" />
 		<option name="caption_decoration" value="none" type="string" />
@@ -1006,7 +1013,7 @@
 		<option name="title_displayed" value="true" type="bool" />
 		<option name="title_position" value="topleft" type="string" />
 		<option name="title_font" value="Rockwell Extra Bold" type="string" />
-		<option name="title_size" value="28" type="int" />
+		<option name="title_size" value="36" type="int" />
 		<option name="title_weight" value="bold" type="string" />
 		<option name="title_style" value="normal" type="string" />
 		<option name="title_decoration" value="none" type="string" />
@@ -1015,7 +1022,7 @@
 		<option name="caption_displayed" value="true" type="bool" />
 		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
-		<option name="caption_size" value="18" type="int" />
+		<option name="caption_size" value="24" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
 		<option name="caption_style" value="normal" type="string" />
 		<option name="caption_decoration" value="none" type="string" />
@@ -1165,7 +1172,7 @@
 		<option name="title_displayed" value="true" type="bool" />
 		<option name="title_position" value="topleft" type="string" />
 		<option name="title_font" value="Rockwell Extra Bold" type="string" />
-		<option name="title_size" value="28" type="int" />
+		<option name="title_size" value="36" type="int" />
 		<option name="title_weight" value="bold" type="string" />
 		<option name="title_style" value="normal" type="string" />
 		<option name="title_decoration" value="none" type="string" />
@@ -1174,7 +1181,7 @@
 		<option name="caption_displayed" value="true" type="bool" />
 		<option name="caption_position" value="footer" type="string" />
 		<option name="caption_font" value="Sitka Text" type="string" />
-		<option name="caption_size" value="18" type="int" />
+		<option name="caption_size" value="24" type="int" />
 		<option name="caption_weight" value="normal" type="string" />
 		<option name="caption_style" value="normal" type="string" />
 		<option name="caption_decoration" value="none" type="string" />
