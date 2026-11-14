@@ -701,7 +701,7 @@
 		<option name="caption_style" value="normal" type="string" />
 		<option name="caption_decoration" value="none" type="string" />
 		<option name="caption_color" value="ceddea" type="string" />
-		<option name="caption_width" value="500" type="int" />
+		<option name="caption_width" value="270" type="int" />
 		<option name="caption_height" value="75" type="int" />
 		<option name="caption_textalign" value="left" type="string" />
 		
