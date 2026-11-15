@@ -99,7 +99,7 @@
     set(layer[splashscreenlayer].onclick, hideintroimage(true));
     set(layer[splashscreenlayer].alpha, 1.0);
     set(layer[splashscreenlayer].onloaded, resize_splashscreen());
-    set(layer[splashscreenlayer].url, '%FIRSTXML%/graphics/_1080107910791079107910792.png');
+    set(layer[splashscreenlayer].url, '%FIRSTXML%/graphics/splashscreen_mobile.png');
   </action>
   <action name="resize_splashscreen">
     if(layer[splashscreenlayer].url,
