@@ -2528,8 +2528,8 @@
 		<option name="area_border_width" value="0" type="int" />
 		<option name="area_border_color" value="f2f2f2" type="string" />
 		<option name="area_border_alpha" value="1" type="float" />
-		<option name="area_width" value="220" type="int" />
-		<option name="area_height" value="220" type="int" />
+		<option name="area_width" value="200" type="int" />
+		<option name="area_height" value="160" type="int" />
 		<option name="area_width_unit" value="pixel" type="string" />
 		<option name="area_height_unit" value="pixel" type="string" />
 		<option name="animation" value="false" type="bool" />
