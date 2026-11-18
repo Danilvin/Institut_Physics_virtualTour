@@ -284,8 +284,8 @@
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
-		<item name="item_1" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery1/_dsc0236.jpg"/>
-		<item name="item_2" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery1/_dsc0247.jpg"/>
+		<item name="item_1" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery1/img_5052.png"/>
+		<item name="item_2" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery1/img_5053.png"/>
 	</internaldata>
 </ptplugin>
 
@@ -442,8 +442,8 @@
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
-		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery/_dsc0227.jpg"/>
-		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery/_dsc0231.jpg"/>
+		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery/img_5056.png"/>
+		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery/img_5055.png"/>
 	</internaldata>
 </ptplugin>
 
@@ -600,9 +600,9 @@
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
-		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery2/_dsc0273.jpg"/>
-		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery2/_dsc0277.jpg"/>
-		<item name="item_3" title="gallery2picture_title2" caption="gallery2picture_caption2" value="indexdata/graphics/gallery2/_dsc0275.jpg"/>
+		<item name="item_1" title="gallerypicture_title0" caption="gallerypicture_caption0" value="indexdata/graphics/gallery2/img_5074.png"/>
+		<item name="item_2" title="gallerypicture_title1" caption="gallerypicture_caption1" value="indexdata/graphics/gallery2/img_5072.png"/>
+		<item name="item_3" title="gallery2picture_title2" caption="gallery2picture_caption2" value="indexdata/graphics/gallery2/img_5073.png"/>
 	</internaldata>
 </ptplugin>
 
@@ -1078,9 +1078,9 @@
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
-		<item name="item_1" title="gallery5picture_title0" caption="gallery5picture_caption0" value="indexdata/graphics/gallery5/_dsc0003.jpg"/>
-		<item name="item_2" title="gallery5picture_title1" caption="gallery5picture_caption1" value="indexdata/graphics/gallery5/_dsc0010.jpg"/>
-		<item name="item_3" title="gallery5picture_title2" caption="gallery5picture_caption2" value="indexdata/graphics/gallery5/_dsc9998.jpg"/>
+		<item name="item_1" title="gallery5picture_title0" caption="gallery5picture_caption0" value="indexdata/graphics/gallery5/img_5044.png"/>
+		<item name="item_2" title="gallery5picture_title1" caption="gallery5picture_caption1" value="indexdata/graphics/gallery5/img_5043.png"/>
+		<item name="item_3" title="gallery5picture_title2" caption="gallery5picture_caption2" value="indexdata/graphics/gallery5/img_5039.png"/>
 	</internaldata>
 </ptplugin>
 
@@ -1237,8 +1237,8 @@
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
-		<item name="item_1" title="gallery6picture_title0" caption="gallery6picture_caption0" value="indexdata/graphics/gallery6/_dsc9990.jpg"/>
-		<item name="item_2" title="gallery6picture_title1" caption="gallery6picture_caption1" value="indexdata/graphics/gallery6/_dsc9991.jpg"/>
+		<item name="item_1" title="gallery6picture_title0" caption="gallery6picture_caption0" value="indexdata/graphics/gallery6/img_5041.png"/>
+		<item name="item_2" title="gallery6picture_title1" caption="gallery6picture_caption1" value="indexdata/graphics/gallery6/img_5040.png"/>
 	</internaldata>
 </ptplugin>
 
@@ -2149,13 +2149,13 @@
 
 	<ptplugin name="floorPlan" engine="KolorFloorPlan">
 		<settings>
-			<option name="background_color" value="f2f2f2" type="string" />
-			<option name="background_lighter_color" value="ffffff" type="string" />
-			<option name="background_darker_color" value="cacaca" type="string" />
+			<option name="background_color" value="0b5793" type="string" />
+			<option name="background_lighter_color" value="0d68b1" type="string" />
+			<option name="background_darker_color" value="09487a" type="string" />
 			<option name="background_alpha" value="1" type="float" />
 			<option name="text_color" value="000000" type="string" />
 
-			<option name="resize" value="false" type="bool" />
+			<option name="resize" value="true" type="bool" />
 			<option name="fp_selector" value="one" type="string" />
 			<option name="fp_selector_label" value="floorPlanmenu_label" type="string" />
 			<option name="display_title" value="false" type="bool" />
@@ -2177,38 +2177,155 @@
 			
 							<floorplanItem 
 								name="fpitempanogroup1354" 
-								width="201" 
-								height="161" 
+								width="350" 
+								height="350" 
 								groupName="panogroup1354" 
-								url="floorplan/artboard_1_copy_2_panogroup1354.png" 
+								url="floorplan/_3_panogroup1354_panogroup1354.0.png" 
 								title="panogroup1354_floor_title"
 								heading="0">
 							</floorplanItem>
 							<floorplanItem 
+								name="fpitempanogroup1355" 
+								width="350" 
+								height="350" 
+								groupName="panogroup1355" 
+								url="floorplan/_3_panogroup1355_panogroup1355.5.png" 
+								title="panogroup1355_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1362" 
+								width="350" 
+								height="350" 
+								groupName="panogroup1362" 
+								url="floorplan/_3_panogroup1362_panogroup1362.6.png" 
+								title="panogroup1362_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1387" 
+								width="350" 
+								height="350" 
+								groupName="panogroup1387" 
+								url="floorplan/_3_panogroup1387_panogroup1387.4.png" 
+								title="panogroup1387_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1468" 
+								width="350" 
+								height="350" 
+								groupName="panogroup1468" 
+								url="floorplan/_3_panogroup1468_panogroup1468.1.png" 
+								title="panogroup1468_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1471" 
+								width="350" 
+								height="350" 
+								groupName="panogroup1471" 
+								url="floorplan/_3_panogroup1471_panogroup1471.2.png" 
+								title="panogroup1471_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1474" 
+								width="350" 
+								height="350" 
+								groupName="panogroup1474" 
+								url="floorplan/_3_panogroup1474_panogroup1474.3.png" 
+								title="panogroup1474_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1477" 
+								width="350" 
+								height="350" 
+								groupName="panogroup1477" 
+								url="floorplan/_3_panogroup1477_panogroup1477.3.png" 
+								title="panogroup1477_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1480" 
+								width="350" 
+								height="150" 
+								groupName="panogroup1480" 
+								url="floorplan/_4_panogroup1480_panogroup1480.0.png" 
+								title="panogroup1480_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1492" 
+								width="350" 
+								height="350" 
+								groupName="panogroup1492" 
+								url="floorplan/_3_panogroup1492_panogroup1492.7.png" 
+								title="panogroup1492_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup1495" 
+								width="350" 
+								height="350" 
+								groupName="panogroup1495" 
+								url="floorplan/_3_panogroup1492_panogroup1495.7.png" 
+								title="panogroup1495_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
 								name="fpitempanogroup1880" 
-								width="201" 
-								height="161" 
+								width="350" 
+								height="150" 
 								groupName="panogroup1880" 
-								url="floorplan/artboard_1_copy_3_panogroup1880.png" 
+								url="floorplan/_4_panogroup1880_panogroup1880.2.png" 
 								title="panogroup1880_floor_title"
 								heading="0">
 							</floorplanItem>
 							<floorplanItem 
 								name="fpitempanogroup1883" 
-								width="201" 
-								height="161" 
+								width="350" 
+								height="150" 
 								groupName="panogroup1883" 
-								url="floorplan/artboard_1_copy_2_panogroup1883.png" 
+								url="floorplan/_4_panogroup1883_panogroup1883.3.png" 
 								title="panogroup1883_floor_title"
 								heading="0">
 							</floorplanItem>
 							<floorplanItem 
+								name="fpitempanogroup1886" 
+								width="350" 
+								height="150" 
+								groupName="panogroup1886" 
+								url="floorplan/_4_panogroup1886_panogroup1886.1.png" 
+								title="panogroup1886_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup2379" 
+								width="200" 
+								height="350" 
+								groupName="panogroup2379" 
+								url="floorplan/_5_panogroup2379_panogroup2379.0.png" 
+								title="panogroup2379_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
 								name="fpitempanogroup2382" 
-								width="201" 
-								height="161" 
+								width="200" 
+								height="350" 
 								groupName="panogroup2382" 
-								url="floorplan/artboard_1_copy_4_panogroup2382.png" 
+								url="floorplan/_5_panogroup2382_panogroup2382.1.png" 
 								title="panogroup2382_floor_title"
+								heading="0">
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup2385" 
+								width="200" 
+								height="350" 
+								groupName="panogroup2385" 
+								url="floorplan/_5_panogroup2385_panogroup2385.2.png" 
+								title="panogroup2385_floor_title"
 								heading="0">
 							</floorplanItem>
 		</floorplanItems>
@@ -2226,9 +2343,22 @@
 	
 	
 					<!-- floorplan panogroup1354 spots counter : 0 -->
+					<!-- floorplan panogroup1355 spots counter : 0 -->
+					<!-- floorplan panogroup1362 spots counter : 0 -->
+					<!-- floorplan panogroup1387 spots counter : 0 -->
+					<!-- floorplan panogroup1468 spots counter : 0 -->
+					<!-- floorplan panogroup1471 spots counter : 0 -->
+					<!-- floorplan panogroup1474 spots counter : 0 -->
+					<!-- floorplan panogroup1477 spots counter : 0 -->
+					<!-- floorplan panogroup1480 spots counter : 0 -->
+					<!-- floorplan panogroup1492 spots counter : 0 -->
+					<!-- floorplan panogroup1495 spots counter : 0 -->
 					<!-- floorplan panogroup1880 spots counter : 0 -->
 					<!-- floorplan panogroup1883 spots counter : 0 -->
+					<!-- floorplan panogroup1886 spots counter : 0 -->
+					<!-- floorplan panogroup2379 spots counter : 0 -->
 					<!-- floorplan panogroup2382 spots counter : 0 -->
+					<!-- floorplan panogroup2385 spots counter : 0 -->
 	
 	
 	<events name="floorPlanEvents" 
@@ -2384,7 +2514,7 @@
 		<option name="close_displayed" value="false" type="bool" />
 		<option name="close_text" value="floorPlandisplay_close_text" type="string" />
 
-		<option name="background_color" value="f2f2f2" type="string" />
+		<option name="background_color" value="0b5793" type="string" />
 		<option name="background_alpha" value="1" type="float" />
 		<option name="overlay_displayed" value="false" type="bool" />
 		<option name="overlay_color" value="000000" type="string" />
@@ -2398,8 +2528,8 @@
 		<option name="area_border_width" value="0" type="int" />
 		<option name="area_border_color" value="f2f2f2" type="string" />
 		<option name="area_border_alpha" value="1" type="float" />
-		<option name="area_width" value="200" type="int" />
-		<option name="area_height" value="160" type="int" />
+		<option name="area_width" value="220" type="int" />
+		<option name="area_height" value="220" type="int" />
 		<option name="area_width_unit" value="pixel" type="string" />
 		<option name="area_height_unit" value="pixel" type="string" />
 		<option name="animation" value="false" type="bool" />
@@ -2505,8 +2635,6 @@
 	
 	<events name="kolorAreaEvents_floorPlanArea" 
 		keep="true"
-		onremovepano="if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
-);"
 		onremovedisplayedobject="ifnot(ptplugin[floorPlanArea].currentCall,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
 ););"
 	/>

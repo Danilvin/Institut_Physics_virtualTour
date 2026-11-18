@@ -12,33 +12,43 @@
 
   <data name="ru_pano1352_title"><![CDATA[3_korpus_coridor]]></data>
 
+  <data name="ru_panogroup1355_title"><![CDATA[Group 1355]]></data>
 
   <data name="ru_pano1353_title"><![CDATA[3_korpus_coridor_2]]></data>
 
+  <data name="ru_panogroup1362_title"><![CDATA[Group 1362]]></data>
 
   <data name="ru_pano1361_title"><![CDATA[3_korpus_coridor_3]]></data>
 
+  <data name="ru_panogroup1387_title"><![CDATA[Group 1387]]></data>
 
   <data name="ru_pano1386_title"><![CDATA[aud_386]]></data>
 
+  <data name="ru_panogroup1468_title"><![CDATA[Group 1468]]></data>
 
   <data name="ru_pano1467_title"><![CDATA[IMG_20260224_142806_00_0521]]></data>
 
+  <data name="ru_panogroup1471_title"><![CDATA[Group 1471]]></data>
 
   <data name="ru_pano1470_title"><![CDATA[IMG_20260224_142610_00_050]]></data>
 
+  <data name="ru_panogroup1474_title"><![CDATA[Group 1474]]></data>
 
   <data name="ru_pano1473_title"><![CDATA[IMG_20260224_142439_00_049]]></data>
 
+  <data name="ru_panogroup1477_title"><![CDATA[Group 1477]]></data>
 
   <data name="ru_pano1476_title"><![CDATA[IMG_20260224_142341_00_048]]></data>
 
+  <data name="ru_panogroup1480_title"><![CDATA[Group 1480]]></data>
 
   <data name="ru_pano1479_title"><![CDATA[IMG_20260225_185701_00_061]]></data>
 
+  <data name="ru_panogroup1492_title"><![CDATA[Group 1492]]></data>
 
   <data name="ru_pano1491_title"><![CDATA[IMG_20260303_114010_00_047]]></data>
 
+  <data name="ru_panogroup1495_title"><![CDATA[Group 1495]]></data>
 
   <data name="ru_pano1494_title"><![CDATA[IMG_20260303_114337_00_048]]></data>
 
@@ -50,9 +60,11 @@
 
   <data name="ru_pano1882_title"><![CDATA[IMG_20260225_185917_00_063]]></data>
 
+  <data name="ru_panogroup1886_title"><![CDATA[Group 1886]]></data>
 
   <data name="ru_pano1885_title"><![CDATA[IMG_20260225_190106_00_065]]></data>
 
+  <data name="ru_panogroup2379_title"><![CDATA[Group 2379]]></data>
 
   <data name="ru_pano2378_title"><![CDATA[IMG_20260217_125131_00_0581 (1)]]></data>
 
@@ -60,6 +72,7 @@
 
   <data name="ru_pano2381_title"><![CDATA[IMG_20260217_125227_00_059 (1)]]></data>
 
+  <data name="ru_panogroup2385_title"><![CDATA[Group 2385]]></data>
 
   <data name="ru_pano2384_title"><![CDATA[IMG_20260217_122801_00_047 ретуш]]></data>
 
@@ -84,47 +97,69 @@
 
 
 	<data name="ru_panogroup1354_floor_title"><![CDATA[Group 1354]]></data>
+	<data name="ru_panogroup1355_floor_title"><![CDATA[Group 1355]]></data>
+	<data name="ru_panogroup1362_floor_title"><![CDATA[Group 1362]]></data>
+	<data name="ru_panogroup1387_floor_title"><![CDATA[Group 1387]]></data>
+	<data name="ru_panogroup1468_floor_title"><![CDATA[Group 1468]]></data>
+	<data name="ru_panogroup1471_floor_title"><![CDATA[Group 1471]]></data>
+	<data name="ru_panogroup1474_floor_title"><![CDATA[Group 1474]]></data>
+	<data name="ru_panogroup1477_floor_title"><![CDATA[Group 1477]]></data>
+	<data name="ru_panogroup1480_floor_title"><![CDATA[Group 1480]]></data>
+	<data name="ru_panogroup1492_floor_title"><![CDATA[Group 1492]]></data>
+	<data name="ru_panogroup1495_floor_title"><![CDATA[Group 1495]]></data>
 	<data name="ru_panogroup1880_floor_title"><![CDATA[Group 1880]]></data>
 	<data name="ru_panogroup1883_floor_title"><![CDATA[panorama]]></data>
+	<data name="ru_panogroup1886_floor_title"><![CDATA[Group 1886]]></data>
+	<data name="ru_panogroup2379_floor_title"><![CDATA[Group 2379]]></data>
 	<data name="ru_panogroup2382_floor_title"><![CDATA[Group 2382]]></data>
+	<data name="ru_panogroup2385_floor_title"><![CDATA[Group 2385]]></data>
 
   <data name="ru_gallery1navprev_text"><![CDATA[Previous]]></data>
   <data name="ru_gallery1navnext_text"><![CDATA[Next]]></data>
   <data name="ru_gallery1close_text"><![CDATA[Close]]></data>
   <data name="ru_gallerypicture_title1"><![CDATA[]]></data>
-  <data name="ru_gallerypicture_caption1"><![CDATA[]]></data>
+  <data name="ru_gallerypicture_caption1"><![CDATA[<b>Сканирующий зондовый микроскоп <br> NanoEducator </b><br><br> 
+NanoEducator — это специализированный сканирующий зондовый микроскоп&nbsp;(СЗМ), разработанный российской компанией NT-MDT и&nbsp;предназначенный в&nbsp;первую очередь для&nbsp;образовательных целей. Он широко используется в&nbsp;университетах и&nbsp;лабораториях для&nbsp;изучения основ нанотехнологий, физики поверхности и&nbsp;материаловедения.]]></data>
   <data name="ru_gallerypicture_title0"><![CDATA[]]></data>
-  <data name="ru_gallerypicture_caption0"><![CDATA[]]></data>
+  <data name="ru_gallerypicture_caption0"><![CDATA[Сканирующий зондовый микроскоп NanoEducator «ощупывает» поверхность образца с&nbsp;помощью сверхострой вольфрамовой иглы-зонда, перемещая его с&nbsp;невероятной точностью, чтобы создать трёхмерное изображение рельефа на нанометровом уровне. <br><br>
+Результатом сканирования является не&nbsp;фотография, а&nbsp;цифровая карта высот. Программа преобразует эти числа в&nbsp;цвет или&nbsp;в&nbsp;трёхмерную сетку, где&nbsp;белый цвет соответствует выступам, чёрный — впадинам, а&nbsp;промежуточные оттенки — плавным переходам. В режиме АСМ вы&nbsp;получите не&nbsp;только рельеф, но&nbsp;и&nbsp;фазовый контраст, который показывает жёсткость материала: мягкий полимер и&nbsp;твёрдый кремний на&nbsp;одном снимке будут отличаться по&nbsp;цвету, даже если их&nbsp;высота одинакова.]]></data>
   <data name="ru_gallerynavprev_text"><![CDATA[Previous]]></data>
   <data name="ru_gallerynavnext_text"><![CDATA[Next]]></data>
   <data name="ru_galleryclose_text"><![CDATA[Close]]></data>
   <data name="ru_gallerypicture_title0"><![CDATA[]]></data>
-  <data name="ru_gallerypicture_caption0"><![CDATA[<b>Сканирующий зондовой микроскоп NanoEducator<b/>]]></data>
+  <data name="ru_gallerypicture_caption0"><![CDATA[<b>Сканирующий зондовый микроскоп <br> NanoEducator </b><br><br> 
+NanoEducator — это специализированный сканирующий зондовый микроскоп&nbsp;(СЗМ), разработанный российской компанией NT-MDT и&nbsp;предназначенный в&nbsp;первую очередь для&nbsp;образовательных целей. Он широко используется в&nbsp;университетах и&nbsp;лабораториях для&nbsp;изучения основ нанотехнологий, физики поверхности и&nbsp;материаловедения.]]></data>
   <data name="ru_gallerypicture_title1"><![CDATA[]]></data>
-  <data name="ru_gallerypicture_caption1"><![CDATA[<b>Сканирующий зондовой микроскоп NanoEducator<b/>]]></data>
+  <data name="ru_gallerypicture_caption1"><![CDATA[Сканирующий зондовый микроскоп NanoEducator «ощупывает» поверхность образца с&nbsp;помощью сверхострой вольфрамовой иглы-зонда, перемещая его с&nbsp;невероятной точностью, чтобы создать трёхмерное изображение рельефа на нанометровом уровне. <br><br>
+Результатом сканирования является не&nbsp;фотография, а&nbsp;цифровая карта высот. Программа преобразует эти числа в&nbsp;цвет или&nbsp;в&nbsp;трёхмерную сетку, где&nbsp;белый цвет соответствует выступам, чёрный — впадинам, а&nbsp;промежуточные оттенки — плавным переходам. В режиме АСМ вы&nbsp;получите не&nbsp;только рельеф, но&nbsp;и&nbsp;фазовый контраст, который показывает жёсткость материала: мягкий полимер и&nbsp;твёрдый кремний на&nbsp;одном снимке будут отличаться по&nbsp;цвету, даже если их&nbsp;высота одинакова.]]></data>
   <data name="ru_gallery2navprev_text"><![CDATA[Previous]]></data>
   <data name="ru_gallery2navnext_text"><![CDATA[Next]]></data>
   <data name="ru_gallery2close_text"><![CDATA[Close]]></data>
   <data name="ru_gallerypicture_title0"><![CDATA[]]></data>
-  <data name="ru_gallerypicture_caption0"><![CDATA[<b>3D сканирующий лазерный Рамановский спектрометр Confotec</b> <br> <br> <br> Text Text  Text Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallerypicture_caption0"><![CDATA[<b>3D сканирующий лазерный Рамановский спектрометр <br>Confotec MR200-3</b><br><br>
+Confotec MR200 – это высокоточный конфокальный 3D сканирующий Рамановский микроскоп для неразрушающего анализа веществ и&nbsp;материалов, изучения их&nbsp;химических и&nbsp;физических свойств. В нем объединены ультрасовременные достижения оптоэлектроники и&nbsp;25-летний опыт компании в&nbsp;области спектрального и&nbsp;лазерного приборостроения]]></data>
   <data name="ru_gallerypicture_title1"><![CDATA[]]></data>
-  <data name="ru_gallerypicture_caption1"><![CDATA[<b>3D сканирующий лазерный Рамановский спектрометр Confotec</b> <br> <br> <br> Text Text  Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallerypicture_caption1"><![CDATA[<b>Дополнительные преимущества.</b><br><br> Прибор построен на&nbsp;базе прямого микроскопа исследовательского класса модели NikonTM&nbsp;Ni, что позволяет дополнительно оснастить прибор стандартными модулями для реализации режимов работы в&nbsp;проходящем свете, поляризационного и фазового контраста, DIC, приставкой для эпи-флуоресценции. <br><br>Благодаря единой моноблочной конструкции Confotec MR200 не&nbsp;требует наличия оптического стола, а&nbsp;также легко может быть транспортирован без необходимости последующей наладки.]]></data>
   <data name="ru_gallery2picture_title2"><![CDATA[]]></data>
-  <data name="ru_gallery2picture_caption2"><![CDATA[<b>3D сканирующий лазерный Рамановский спектрометр Confotec</b> <br> <br> <br> Text Text  Text Text Text Text <br> Text Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery2picture_caption2"><![CDATA[<b>Программное обеспечение.</b><br><br> Программное обеспечение NanoSysProg, установленное на&nbsp;ПК, содержит функции для управления прибором, сбора, отображения, хранения и&nbsp;обработки результатов измерений. Метрологически значимая часть ПО не&nbsp;выделена, все&nbsp;ПО является метрологически значимым.]]></data>
   <data name="ru_gallery3navprev_text"><![CDATA[Previous]]></data>
   <data name="ru_gallery3navnext_text"><![CDATA[Next]]></data>
   <data name="ru_gallery3close_text"><![CDATA[Close]]></data>
   <data name="ru_gallery3picture_title0"><![CDATA[]]></data>
-  <data name="ru_gallery3picture_caption0"><![CDATA[<b>Диэлектрический спектрометр<br>NOVOCONTROl 41</b><br><br>
-Прибор позволяет  проводить исследование электрофизических свойств различных<br>материалов – диэлектриков, полупроводников, в&nbspтом числе в&nbspнаноструктурированном состоянии, а&nbspтакже электролитов.<br><br> Измерительная система позволяет проводить автоматизированные прецизионные измерения комплексного импеданса, диэлектрической проницаемости, тангенса угла диэлектрических потерь, комплексной проводимости в широком диапазоне частот (3&nbspмкГц&nbsp– 3&nbspГГц) и&nbspтемператур (-190°С-+400°С)]]></data>
+  <data name="ru_gallery3picture_caption0"><![CDATA[<b>Широкополосный диэлектрический спектрометр<br>Novocontrol Concept 41</b><br><br>
+Novocontrol Concept 41&nbsp;— это высокоточный автоматизированный комплекс для исследования диэлектрических и&nbsp;проводящих свойств материалов в&nbsp;широчайшем диапазоне частот и температур. Прибор производится немецкой компанией&nbsp;<b>Novocontrol Technologies GmbH</b>, основанной в&nbsp;1980&nbsp;году, и&nbsp;считается одним из мировых стандартов в&nbsp;области диэлектрической спектроскопии. Concept&nbsp;41 активно используется в&nbsp;ведущих научных центрах и&nbsp;промышленных лабораториях для&nbsp;анализа полимеров, керамики, жидкостей, полупроводников и&nbsp;других материалов.]]></data>
   <data name="ru_gallery3picture_title1"><![CDATA[]]></data>
-  <data name="ru_gallery3picture_caption1"><![CDATA[<b>Диэлектрический спектрометр "Novocontrol 41"<b/><br> <br>Text  <br>Text Text  <br>Text Text Text<br>]]></data>
+  <data name="ru_gallery3picture_caption1"><![CDATA[<b>Принцип действия</b><br><br>
+Принцип работы основан на&nbsp;измерении комплексного импеданса Z&nbsp;образца, помещённого между двумя электродами измерительной ячейки. Процесс полностью автоматизирован. При изменении частоты переменного электрического поля прибор фиксирует отклик материала, по которому рассчитываются такие параметры, как комплексная диэлектрическая проницаемость&nbsp;ε&nbsp;и&nbsp;проводимость&nbsp;σ*. Это позволяет исследовать молекулярную динамику, процессы релаксации и&nbsp;переноса заряда в&nbsp;веществе.]]></data>
   <data name="ru_gallery3picture_title2"><![CDATA[]]></data>
-  <data name="ru_gallery3picture_caption2"><![CDATA[<b>Диэлектрический спектрометр "Novocontrol 41"<b/><br> <br>Text  <br>Text Text  <br>Text Text Text<br>]]></data>
+  <data name="ru_gallery3picture_caption2"><![CDATA[<b>Ключевые особенности и преимущества</b><br><br>
+<b>Сверхширокий частотный диапазон</b>: Основной диапазон прибора составляет от&nbsp;3&nbsp;мкГц&amp;nbsдо&nbsp;40&nbsp;МГц, что&nbsp;позволяет изучать как медленные процессы релаксации, так&nbsp;и&nbsp;быструю молекулярную динамику. При интеграции с&nbsp;внешним анализатором (опция) диапазон расширяется до&nbsp;3&nbsp;ГГц, открывая возможности для&nbsp;исследования высокочастотных свойств материалов.]]></data>
   <data name="ru_gallery3picture_title3"><![CDATA[]]></data>
-  <data name="ru_gallery3picture_caption3"><![CDATA[<b>Диэлектрический спектрометр "Novocontrol 41"<b/><br> <br>Text  <br>Text Text  <br>Text Text Text<br>]]></data>
+  <data name="ru_gallery3picture_caption3"><![CDATA[<b>Высокая чувствительность</b><br><br>
+Спектрометр способен измерять импеданс в&nbsp;колоссальном диапазоне от &nbsp;0&nbsp;мОм&nbsp;до&nbsp;100&nbsp;ТОм, что&nbsp;позволяетработать как с&nbsp;высокопроводящими,так&nbsp;и&nbsp;с&nbsp;крайненизкопроводящими материалами (например, с&nbsp;высококачественнымидиэлектриками). Разрешение прибора достигает&nbsp;10⁻⁵, что&nbsp;делает его незаменимым для анализаматериалов с&nbsp;очень малыми потерями.]]></data>
   <data name="ru_gallery3picture_title4"><![CDATA[]]></data>
-  <data name="ru_gallery3picture_caption4"><![CDATA[<b>Диэлектрический спектрометр "Novocontrol 41"<b/><br> <br>Text  <br>Text Text  <br>Text Text Text<br>]]></data>
+  <data name="ru_gallery3picture_caption4"><![CDATA[<b>DETACHEM</b><br><br>
+новейшее&nbsp;ПО,объединяющее управление прибором и&nbsp;расширенныевозможности анализа данных, включая обработку как&nbsp;частотных, так&nbsp;и&nbsp;временныхзависимостей.]]></data>
   <data name="ru_gallery4navprev_text"><![CDATA[Previous]]></data>
   <data name="ru_gallery4navnext_text"><![CDATA[Next]]></data>
   <data name="ru_gallery4close_text"><![CDATA[Close]]></data>
@@ -136,18 +171,19 @@
   <data name="ru_gallery5navnext_text"><![CDATA[Next]]></data>
   <data name="ru_gallery5close_text"><![CDATA[Close]]></data>
   <data name="ru_gallery5picture_title0"><![CDATA[]]></data>
-  <data name="ru_gallery5picture_caption0"><![CDATA[<b> Проектор очень красивый</b> <br> Text Text  Text Text Text Text Text Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery5picture_caption0"><![CDATA[В&nbsp;институте физики Российского государственногопедагогического университета им. А. И. &nbsp;Герцена установлен комплекс цифрового планетария со&nbsp;сферическим экраном. Современный цифровой планетарийперестал быть исключительно демонстрационной системой для&nbsp;показа звёздного неба, он&nbsp;позволяет демонстрировать различныйнаучно-познавательный и&nbsp;учебныйконтент в&nbsp;формате виртуальной реальности.]]></data>
   <data name="ru_gallery5picture_title1"><![CDATA[]]></data>
-  <data name="ru_gallery5picture_caption1"><![CDATA[<b> Проектор очень красивый</b> <br> Text Text  Text Text Text Text Text <br> Text Text Text Text Text <br> Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery5picture_caption1"><![CDATA[Сегодня это аудиовизуальнаяиммерсивная платформа, включающая купольную проекцию высокого разрешения,многоканальную пространственную аудиосистему и&nbsp;синхронизированную мультимедийную систему управления(International Planetarium Society&nbsp;2023). Такой комплекс способен визуализировать не&nbsp;только небесную сферу, но&nbsp;и&nbsp;любыепространственные и&nbsp;временныепроцессы —&nbsp;&nbsp;от&nbsp;геофизическихявлений до&nbsp;исторических реконструкций,философских концепций и&nbsp;языковыхкарт.]]></data>
   <data name="ru_gallery5picture_title2"><![CDATA[]]></data>
-  <data name="ru_gallery5picture_caption2"><![CDATA[<b> Проектор очень красивый</b> <br> Text Text  Text Text Text Text Text <br> Text Text Text Text Text <br> Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery5picture_caption2"><![CDATA[Он выступает&nbsp;как медиапространство для&nbsp;междисциплинарного обучения в&nbsp;физике, астрономии, биологии, географии, истории,философии и&nbsp;преподавании иностранных языков,объединяя визуальные, звуковые и&nbsp;смысловые контексты(Denver&nbsp;Museum&nbsp;2019; Emerald&nbsp;Planetariums&nbsp;2025).]]></data>
   <data name="ru_gallery6navprev_text"><![CDATA[Previous]]></data>
   <data name="ru_gallery6navnext_text"><![CDATA[Next]]></data>
   <data name="ru_gallery6close_text"><![CDATA[Close]]></data>
   <data name="ru_gallery6picture_title0"><![CDATA[]]></data>
-  <data name="ru_gallery6picture_caption0"><![CDATA[<b> Че-то на компе</b> <br> Text Text  Text Text Text Text Text Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text Text <br> Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery6picture_caption0"><![CDATA[<b>Антенныйкомплекс «Лоретт» </b><br><br> 
+Антенный комплекс «Лоретт» &nbsp;(далееКомплекс) предназначен для&nbsp;приема, демодуляции, декодирования, регистрации и&nbsp;обработки цифровой информации, передаваемой с&nbsp;борта искусственных спутников Земли по&nbsp;радиоканалам Х-диапазона частот. Комплекс обеспечивает прием ряда спутников, осуществляющих широковещательную передачу открытых данных космической съемки Земли (Terra, Aqua, Suomi NPP, группа спутниковFengYun), которые поднимаются над&nbsp;горизонтом выше 70&nbsp;градусов, и&nbsp;автоматическую запись файлов данных на&nbsp;диск персонального компьютера. <br><br> Данные космической съемки Земли (дистанционное зондирование) применяется практическиво&nbsp;всех сферах, где&nbsp;нужна актуальная информация о&nbsp;поверхности планеты.]]></data>
   <data name="ru_gallery6picture_title1"><![CDATA[]]></data>
-  <data name="ru_gallery6picture_caption1"><![CDATA[<b> Че-то на компе</b> <br> Text Text  Text Text Text Text Text <br> Text Text Text Text Text <br> Text Text Text Text Text Text Text Text ]]></data>
+  <data name="ru_gallery6picture_caption1"><![CDATA[Комплекс представляет собой неподвижное параболическое зеркало, расположенное в&nbsp;горизонтальной плоскости таким образом, что&nbsp;его&nbsp;осьнаправлена точно в&nbsp;зенит. Для&nbsp;сопровождения пролета искусственного спутника Земли приемное устройство перемещается в&nbsp;фокальной плоскости зеркала с&nbsp;помощью робота-манипулятора под&nbsp;управлением блока управления]]></data>
 
 
   <data name="ru_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
